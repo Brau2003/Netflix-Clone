@@ -1,15 +1,28 @@
     :root {
     --text-color: #fff;
     --background-color: black;
+    --button-color: #e30813;
+    --primary-red: #e30813;
+    --primary-gray: #767676;
+    --hero-section-gradient-bg: linear-gradient( to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%);
+    --separators-color: #222222;
+    --tab-section-bg: #1b1b1b;
+    --tab-section-table-gray: #262626;
+    --faq-section-bg: #303030;
+    --gradient-slider-content: linear-gradient( 0deg, #000000 -40.85%, rgba(0, 0, 0, 0) 100%);
+    --footer-link-color: #757575;
+    --hero-font-size: 3.75em;
+    --features-title-font-size: 3.125em;
+    --features-paragraph-font-size: 1.5em;
+    --tab-subtitle-font-size: 1.25em;
     scroll-behavior: smooth;
 }
 
 .body {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     background-color: var(--background-color);
     color: var(--text-color);
     min-height: 200vh;
-    text-align: center;
 }
 
 .header {
