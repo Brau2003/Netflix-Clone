@@ -69,6 +69,110 @@
   background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/ed0b5df9-ba9d-4534-bd09-57993daeda56/7cfa3334-407a-4866-8411-8c0c69efed1a/PE-es-20220214-popsignuptwoweeks-perspective_alpha_website_small.jpg);
 }
 
+/* FEAUTEURES SECTION STARTS */
+    /* 1 ENJOY ON YOUR TV */
+    .main-section .section-container{
+      border-top: 8px solid #222;
+      background-color: black;
+      display: flex;
+      padding: 0px 80px;
+      padding-bottom: 90px;
+  }
+  .main-section .section-container .left-column{
+      padding-top: 13%;
+      padding-right: 2%;
+  }
+  .main-section .section-container .left-column h1{
+      color: white;
+  }
+  .main-section .section-container .left-column h3{
+      color: white;
+      font-size: 1.4rem;
+      font-weight: normal;
+      margin-top: 5%;
+  }
+  .main-section .section-container .right-column{
+      overflow: hidden;
+      position: relative;
+      width: 80%;
+      height: 500px;
+  }
+  .main-section .section-container .right-column img{
+      position: absolute;
+      width: 100%;
+  }
+  .main-section .section-container .right-column .video-1{
+      margin-left: 13%;
+      margin-top: 16%;
+      width: 73%;
+  }
+  /*2 DOWNLOAD YOU SHOW TO WATCH OFFLINE*/
+  .main-section .section2-container{
+      border-top: 8px solid #222;
+      background-color: black;
+      display: flex;
+      padding: 0px 80px;
+      padding-bottom: 90px;
+  }
+  .main-section .section2-container .left-column img{
+      width: 100%;
+  }
+  .main-section .section2-container .left-column .box{
+      border: 2px solid rgba(255,255,255,.25);
+      background-color: black;
+      border-radius: 10px;
+      width: 60%;
+      padding: 10px;
+      display: flex;
+      align-items: center;
+      margin: 0 auto;
+      overflow: hidden;
+      position: relative;
+      margin-top: -22%;
+  }
+  .main-section .section2-container .left-column .box .boxshot{
+      width: 15%;
+  }
+  .main-section .section2-container .left-column .box p{
+      margin-left: 5%;
+      margin-top: 3%;
+  }
+  .main-section .section2-container .left-column .box p a{
+      text-decoration: none;
+  }
+  .main-section .section2-container .left-column .box .download-gif{
+      width: 3em;
+      height: 3em;
+      position: absolute; 
+      right: 0;
+  }
+  .main-section .section2-container .right-column{
+      padding-top: 13%;
+      padding-right: 2%;
+      width: 50%;
+  }
+  .main-section .section2-container .right-column h1{
+      color: white;
+  }
+  .main-section .section2-container .right-column h3{
+      color: white;
+      font-size: 1.4rem;
+      font-weight: normal;
+      margin-top: 5%;
+  }
+  /* 3 WATCH EVERY WHERE*/
+  .main-section .section-container .right-column .video-2{
+      margin-left: 19%;
+      margin-top: 8%;
+      width: 61%;
+  }
+  /* 4 CREATE PROFILE FOR KIDS*/
+  .main-section .section2-container .left-column img{
+      width: 100%;
+  }
+  
+/* FEATURES SECTION ENDS */
+
 .section {
   border-bottom: 8px solid #222;
 }
