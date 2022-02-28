@@ -20,6 +20,10 @@
     rgba(0, 0, 0, 0) 100%
   );
   --footer-link-color: #757575;
+  --hero-font-size: 3.75em;
+  --features-title-font-size: 3.125em;
+  --features-paragraph-font-size: 1.5em;
+  --tab-subtitle-font-size: 1.25em;
   scroll-behavior: smooth;
 }
 

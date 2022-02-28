@@ -42,15 +42,18 @@
       </nav>
     </header>
 
-    <main>
-      <section>
-        <h1>Películas y series ilimitadas y mucho más.</h1>
-        <p>Disfruta donde quieras. Cancela cuando quieras.</p>
-        <p>
+    <main class="main">
+      <section class="hero">
+        <h1 class="hero__title">Películas y series ilimitadas y mucho más.</h1>
+        <p class="hero__subtitle">
+          Disfruta donde quieras. Cancela cuando quieras.
+        </p>
+        <p class="hero__description">
           ¿Quieres ver Netflix ya? Ingresa tu email para crear una cuenta o
           reiniciar tu membresía de Netflix.
         </p>
         <input
+          class="hero__submit"
           type="email"
           placeholder="Email"
           autocomplete="email"
@@ -59,13 +62,15 @@
           minlength="5"
         />
         <div>
-          <button type="submit">Comenzar</button>
+          <button class="hero__button" type="submit">Comenzar</button>
         </div>
       </section>
-
-      <section>
-        <h2>Disfruta en tu TV.</h2>
-        <p>
+      <section class="tabs">
+        <!-- sección Tabs donde ira la información del precio , y una serie de características del producto -->
+      </section>
+      <section class="features">
+        <h2 class="features__title">Disfruta en tu TV.</h2>
+        <p class="features__description">
           Ve en smart TV, PlayStation, Xbox, Chromecast, Apple TV, reproductores
           de Blu-ray y más.
         </p>
@@ -132,7 +137,13 @@
         />
       </section>
 
-      <section>
+      <section class="latest-releases">
+        <!-- Últimos lanzamientos slider splide.js -->
+      </section>
+      <section class="preferences">
+        <!-- Sección preferencias chart.js -->
+      </section>
+      <section class="faq">
         <h2>Preguntas frecuentes</h2>
         <p>
           ¿Quieres ver Netflix ya? Ingresa tu email para crear una cuenta o
@@ -151,7 +162,7 @@
       </section>
     </main>
 
-    <footer>
+    <footer class="footer">
       <p>¿Preguntas? Llama al 0-800-52352</p>
       <ul>
         <li>
