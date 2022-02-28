@@ -34,7 +34,7 @@
 .header-nav__menu-icon,
 .header-nav__close-icon {
   height: 100%;
-  height: 100%;
+  width: 100%;
 }
 
 .header {
@@ -43,24 +43,20 @@
   width: 100%;
   transition: all 0.5s;
 }
-
 .header-nav {
   padding: 0.5rem 0;
   transition: all 0.5s;
 }
-
 .header-nav-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 0 2rem;
 }
-
 .header-nav__logo-container {
   display: flex;
   height: 4rem;
 }
-
 .header-nav__menu-icon-container {
   border: none;
   padding: 0;
