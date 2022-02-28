@@ -6,11 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Netflix Perú | Clone</title>
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet" />
 
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/732/732228.png">
     <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css" />
     <link rel="stylesheet" href="./css/style.css" />
 </head>
@@ -20,12 +22,12 @@
         <nav class="header-nav">
             <div class="header-nav-container">
                 <a class="header-nav__logo-container" href="#">
-                    <img class="header-nav__logo" src="https://assets.stickpng.com/thumbs/580b57fcd9996e24bc43c529.png" alt="Logo Netfix" class="header-nav__logo" />
+                    <img class="header-nav__logo" src="https://assets.stickpng.com/thumbs/580b57fcd9996e24bc43c529.png" alt="Logo Netflix" class="header-nav__logo" />
                 </a>
                 <select name="" id="">
-                    <option value="">Español</option>
-                    <option value="">English</option>
-                </select>
+            <option value="">Español</option>
+            <option value="">English</option>
+          </select>
                 <a href="">Iniciar sesión</a>
             </div>
         </nav>
@@ -34,15 +36,153 @@
     <main class="main">
         <h1>Películas y series ilimitadas y mucho más.</h1>
         <p>Disfruta donde quieras. Cancela cuando quieras.</p>
-        <p>¿Quieres ver Netflix ya? Ingresa tu email para crear una cuenta o reiniciar tu membresía de Netflix.</p>
-        <input type="email" placeholder="Email" autocomplete="email" id="id-email" maxlength="50" minlength="5">
+        <p>
+            ¿Quieres ver Netflix ya? Ingresa tu email para crear una cuenta o reiniciar tu membresía de Netflix.
+        </p>
+        <input type="email" placeholder="Email" autocomplete="email" id="id-email" maxlength="50" minlength="5" />
         <div>
             <button class="hero__button" type="submit">Comenzar</button>
         </div>
     </main>
 
     <section class="tabs">
-        <!-- sección Tabs donde ira la información del precio , y una serie de características del producto -->
+        <div class="tabs__header">
+            <div id="tab-1" class="tabs__tab-item">
+                <img src="./images/tab-section/tab-no-commitment-icon.svg" alt="" />
+                <p class="hide-sm">Cancela en cualquier momento</p>
+            </div>
+            <div id="tab-2" class="tabs__tab-item">
+                <img src="./images/tab-section/tab-devices-icon.svg" alt="" />
+                <p class="hide-sm">Mira donde sea</p>
+            </div>
+            <div id="tab-3" class="tabs__tab-item">
+                <img src="./images/tab-section/tab-prices-icon.svg" alt="" />
+                <p class="hide-sm">Escoge tu precio</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="tab-content">
+        <div class="tab-content__container">
+            <!-- Tab Content 1 -->
+            <div id="tab-1-content" class="tab-content__item-show">
+                <div class="tab-1-content-inner">
+                    <div>
+                        <p class="text-lg">
+                            Si decides que Netflix no es para ti - no hay problema. Sin compromisos. Cancela en linea en cualquier momento.
+                        </p>
+                        <a href="#" class="btn btn-lg">Mira gratis por 30 días</a>
+                    </div>
+                    <img src="https://i.ibb.co/J2xDJV7/tab-content-1.png" alt="" />
+                </div>
+            </div>
+
+            <!-- Tab Content 2 -->
+            <div id="tab-2-content" class="tab-content-item">
+                <div class="tab-2-content-top">
+                    <p class="text-lg">
+                        Mira películas y series en cualquier momento, donde sea - personalizado para ti.
+                    </p>
+                    <a href="#" class="btn btn-lg">Mira gratis por 30 días</a>
+                </div>
+                <div class="tab-2-content-bottom">
+                    <div>
+                        <img src="https://i.ibb.co/DpdN7Gn/tab-content-2-1.png" alt="" />
+                        <p class="text-md">Mira en tu TV</p>
+                        <p class="text-dark">
+                            Smart TVs, PlayStation, Xbox, Chromecast, Apple TV, reproductores Blu-ray y más.
+                        </p>
+                    </div>
+                    <div>
+                        <img src="https://i.ibb.co/R3r1SPX/tab-content-2-2.png" alt="" />
+                        <p class="text-md">
+                            Mira al instante o descarga para mirar luego
+                        </p>
+                        <p class="text-dark">
+                            Disponible en teléfonos y tablets, donde sea que vayas.
+                        </p>
+                    </div>
+                    <div>
+                        <img src="https://i.ibb.co/gDhnwWn/tab-content-2-3.png" alt="" />
+                        <p class="text-md">Usa cualquier computadora</p>
+                        <p class="text-dark">Mira en Netflix.com</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tab Content 3 -->
+            <div id="tab-3-content" class="tab-content-item">
+                <div class="text-center">
+                    <p class="text-lg">
+                        Choose one plan and watch everything on Netflix.
+                    </p>
+                    <a href="#" class="btn btn-lg">Mira gratis por 30 días</a>
+                </div>
+
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th></th>
+                            <th>Básico</th>
+                            <th>Estándar</th>
+                            <th>Premium</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                El precio mensual después de que finalice el mes gratuito el 29/03/2022
+                            </td>
+                            <td>S/. 24.90</td>
+                            <td>S/. 34.90</td>
+                            <td>S/. 44.90</td>
+                        </tr>
+                        <tr>
+                            <td>HD Disponible</td>
+                            <td><i class="fas fa-times"></i></td>
+                            <td><i class="fas fa-check"></i></td>
+                            <td><i class="fas fa-check"></i></td>
+                        </tr>
+                        <tr>
+                            <td>Ultra HD Disponible</td>
+                            <td><i class="fas fa-times"></i></td>
+                            <td><i class="fas fa-times"></i></td>
+                            <td><i class="fas fa-check"></i></td>
+                        </tr>
+                        <tr>
+                            <td>Pantallas que puedes ver al mismo tiempo</td>
+                            <td>1</td>
+                            <td>2</td>
+                            <td>4</td>
+                        </tr>
+                        <tr>
+                            <td>Mira en tu laptop, TV, smartphone y tablet.</td>
+                            <td><i class="fas fa-check"></i></td>
+                            <td><i class="fas fa-check"></i></td>
+                            <td><i class="fas fa-check"></i></td>
+                        </tr>
+                        <tr>
+                            <td>Películas y series ilimitadas</td>
+                            <td><i class="fas fa-check"></i></td>
+                            <td><i class="fas fa-check"></i></td>
+                            <td><i class="fas fa-check"></i></td>
+                        </tr>
+                        <tr>
+                            <td>Cancela cuando quieras</td>
+                            <td><i class="fas fa-check"></i></td>
+                            <td><i class="fas fa-check"></i></td>
+                            <td><i class="fas fa-check"></i></td>
+                        </tr>
+                        <tr>
+                            <td>Primer mes gratis</td>
+                            <td><i class="fas fa-check"></i></td>
+                            <td><i class="fas fa-check"></i></td>
+                            <td><i class="fas fa-check"></i></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
     </section>
 
     <section class="features">
@@ -61,18 +201,17 @@
     <section class="section">
         <h2>Descarga tus series para verlas offline.</h2>
         <p>Guarda tu contenido favorito y tendrás siempre algo para ver.</p>
-        <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/mobile-0819.jpg" alt="teléfono">
+        <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/mobile-0819.jpg" alt="teléfono" />
         <div class="section-descarga__container">
             <div>
-                <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/boxshot.png" alt="imagen descargando">
+                <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/boxshot.png" alt="imagen descargando" />
             </div>
             <div>
                 <div>Stranger Things</div>
                 <div>Descargando...</div>
             </div>
             <div>
-                <img src="./images/download-icon.gif" alt="">
-                <!-- <link rel="icon" href="./images/download-icon.gif"> -->
+                <img src="./images/download-icon.gif" alt="" />
             </div>
         </div>
     </section>
@@ -116,14 +255,13 @@
         <button type="submit">Comenzar</button>
     </section>
 
-
     <footer class="footer">
         <p>¿Preguntas? Llama al 0-800-52352</p>
         <ul class="footer-ul">
             <li>
                 <a class="footer-ul-a" href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox">
-                    Preguntas frecuentes
-                </a>
+            Preguntas frecuentes
+          </a>
             </li>
             <li>
                 <a class="footer-ul-a" href="">Centro de ayuda</a>
@@ -172,9 +310,9 @@
             </li>
         </ul>
         <select name="" id="">
-            <option value="">Español</option>
-            <option value="">English</option>
-        </select>
+        <option value="">Español</option>
+        <option value="">English</option>
+      </select>
         <p>Netflix Perú</p>
     </footer>
 
