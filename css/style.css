@@ -1,89 +1,90 @@
-    :root {
-    --text-color: #fff;
-    --background-color: black;
-    --button-color: #e30813;
-    --primary-red: #e30813;
-    --primary-gray: #767676;
-    --hero-section-gradient-bg: linear-gradient( to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%);
-    --separators-color: #222222;
-    --tab-section-bg: #1b1b1b;
-    --tab-section-table-gray: #262626;
-    --faq-section-bg: #303030;
-    --gradient-slider-content: linear-gradient( 0deg, #000000 -40.85%, rgba(0, 0, 0, 0) 100%);
-    --footer-link-color: #757575;
-    --hero-font-size: 3.75em;
-    --features-title-font-size: 3.125em;
-    --features-paragraph-font-size: 1.5em;
-    --tab-subtitle-font-size: 1.25em;
-    scroll-behavior: smooth;
-}
-
-.body {
-    font-family: "Roboto", sans-serif;
-    background-color: var(--background-color);
-    color: var(--text-color);
-    min-height: 200vh;
-}
-
-.header {
-    top: 0;
-    left: 0;
-    width: 100%;
-    transition: all 0.5s;
-}
-
-.header-nav {
-    padding: 0.5rem 0;
-    transition: all 0.5s;
-}
-
-.header-nav-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 2rem;
-}
-
-.header-nav__logo-container {
-    display: flex;
-    height: 4rem;
-}
-
-.header-nav__logo {
-    height: 100%;
-    height: 100%;
-}
-
-.main {
-    border-bottom: 8px solid #222;
-    background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/ed0b5df9-ba9d-4534-bd09-57993daeda56/7cfa3334-407a-4866-8411-8c0c69efed1a/PE-es-20220214-popsignuptwoweeks-perspective_alpha_website_small.jpg);
-}
-
-.section {
-    border-bottom: 8px solid #222;
-}
-
-.section-descarga__container {
-    display: flex;
-    border: 2px solid rgba(255, 255, 255, .25);
-    border-radius: 0.75em;
-}
-
-.footer-ul {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 1rem;
-    list-style: none;
-}
-
-.footer-ul-a {
-    text-decoration: none;
-}
-
-@media (min-width: 854px) {
-    .footer-ul {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
+         :root {
+        --text-color: #fff;
+        --background-color: black;
+        --button-color: #e30813;
+        --primary-red: #e30813;
+        --primary-gray: #767676;
+        --hero-section-gradient-bg: linear-gradient( to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%);
+        --separators-color: #222222;
+        --tab-section-bg: #1b1b1b;
+        --tab-section-table-gray: #262626;
+        --faq-section-bg: #303030;
+        --gradient-slider-content: linear-gradient( 0deg, #000000 -40.85%, rgba(0, 0, 0, 0) 100%);
+        --footer-link-color: #757575;
+        --hero-font-size: 3.75em;
+        --features-title-font-size: 3.125em;
+        --features-paragraph-font-size: 1.5em;
+        --tab-subtitle-font-size: 1.25em;
+        scroll-behavior: smooth;
     }
+    
+    .body {
+        font-family: "Roboto", sans-serif;
+        background-color: var(--background-color);
+        color: var(--text-color);
+        min-height: 200vh;
+        text-align: center;
+    }
+    
+    .header {
+        top: 0;
+        left: 0;
+        width: 100%;
+        transition: all 0.5s;
+    }
+    
+    .header-nav {
+        padding: 0.5rem 0;
+        transition: all 0.5s;
+    }
+    
+    .header-nav-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 2rem;
+    }
+    
+    .header-nav__logo-container {
+        display: flex;
+        height: 4rem;
+    }
+    
+    .header-nav__logo {
+        height: 100%;
+        height: 100%;
+    }
+    
+    .main {
+        border-bottom: 8px solid #222;
+        background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/ed0b5df9-ba9d-4534-bd09-57993daeda56/7cfa3334-407a-4866-8411-8c0c69efed1a/PE-es-20220214-popsignuptwoweeks-perspective_alpha_website_small.jpg);
+    }
+    
+    .section {
+        border-bottom: 8px solid #222;
+    }
+    
+    .section-descarga__container {
+        display: flex;
+        border: 2px solid rgba(255, 255, 255, .25);
+        border-radius: 0.75em;
+    }
+    
+    .footer-ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+        list-style: none;
+    }
+    
+    .footer-ul-a {
+        text-decoration: none;
+    }
+    
+    @media (min-width: 854px) {
+        .footer-ul {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+        }
