@@ -82,7 +82,7 @@
         <p>
             Películas y series ilimitadas en tu teléfono, tablet, computadora y TV sin costo extra.
         </p>
-        <div>
+        <div class="videoNetflix">
             <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/device-pile.png" alt="multiple devices" />
             <div>
                 <video class="" autoplay playsinline muted loop src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-devices.m4v"></video>
@@ -102,7 +102,9 @@
         <!-- Últimos lanzamientos slider splide.js -->
     </section>
     <section class="preferences">
-        <!-- Sección preferencias chart.js -->
+        <h2>Estadísticas de nuestras películas y series.</h2>
+        <p>Tenemos una gran variedad de películas y series.</p>
+        <canvas id="myChart" class="barChart"></canvas>
     </section>
     <section class="faq">
         <h2>Preguntas frecuentes</h2>
@@ -175,6 +177,14 @@
         </select>
         <p>Netflix Perú</p>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="js/alerts.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.7.1/dist/chart.min.js"></script>
+    <script src="js/chart.js"></script>
+
+    <noscript>You need to enable JavaScript to view the full site.</noscript>
 </body>
 
 </html>
