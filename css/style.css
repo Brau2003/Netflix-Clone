@@ -1,20 +1,25 @@
 :root {
   --text-color: #fff;
-  --background-color: black;
+  --background-color: #000000;
   --button-color: #e30813;
+  --border-button-color: #aaa;
   --primary-red: #e30813;
   --primary-gray: #767676;
-  --hero-section-gradient-bg: linear-gradient(to top,
-      rgba(0, 0, 0, 0.8) 0,
-      rgba(0, 0, 0, 0) 60%,
-      rgba(0, 0, 0, 0.8) 100%);
+  --hero-section-gradient-bg: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.8) 0,
+    rgba(0, 0, 0, 0) 60%,
+    rgba(0, 0, 0, 0.8) 100%
+  );
   --separators-color: #222222;
   --tab-section-bg: #1b1b1b;
   --tab-section-table-gray: #262626;
   --faq-section-bg: #303030;
-  --gradient-slider-content: linear-gradient(0deg,
-      #000000 -40.85%,
-      rgba(0, 0, 0, 0) 100%);
+  --gradient-slider-content: linear-gradient(
+    0deg,
+    #000000 -40.85%,
+    rgba(0, 0, 0, 0) 100%
+  );
   --footer-link-color: #757575;
   --hero-font-size: 3.75em;
   --features-title-font-size: 3.125em;
@@ -37,6 +42,8 @@
   color: var(--text-color);
   text-align: center;
 }
+
+/* HEADER */
 
 .header {
   top: 0;
@@ -71,17 +78,18 @@
   padding-left: 1.375rem;
   padding-right: 1.375rem;
   line-height: 1.3em;
+  white-space: nowrap;
   padding: 0.5rem 1.375rem;
-  background: rgba(0, 0, 0, .4);
-  border: 1px solid #aaa;
-  color: #fff;
-  font-size: .875rem;
+  background: var(--background-color);
+  border: 1px solid var(--border-button-color);
+  color: var(--text-color);
+  font-size: 0.875rem;
   text-indent: 0;
 }
 
 .header-nav__signin {
   margin-top: 0;
-  background-color: #e50914;
+  background-color: var(--primary-red);
   line-height: normal;
   padding: 7px 17px;
   font-weight: 400;
@@ -92,12 +100,14 @@
 
 .header-nav__signin:hover {
   border: 0.1rem solid var(--backgroud-color);
-  background-color: #fff;
-  color: #000000;
+  background-color: var(--text-color);
+  color: var(--background-color);
 }
 
+/* MAIN - BANNER */
+
 .main {
-  border-bottom: 8px solid #222;
+  border-bottom: 8px solid var(--background-color);
   background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/ed0b5df9-ba9d-4534-bd09-57993daeda56/7cfa3334-407a-4866-8411-8c0c69efed1a/PE-es-20220214-popsignuptwoweeks-perspective_alpha_website_small.jpg);
 }
 
@@ -136,10 +146,9 @@
   width: 100%;
   box-shadow: none;
   font-size: 16px;
-  border: solid 1px #8c8c8c;
   border-radius: 2px;
   display: block;
-  color: #000000;
+  color: var(--background-color);
   line-height: normal;
   margin: 0;
   list-style: none;
@@ -159,12 +168,15 @@
   width: auto;
   position: relative;
   min-width: 74px;
-  color: #fff;
-  background-color: #e50914;
-  background-image: linear-gradient(to bottom, #e50914, #db0510);
-  box-shadow: 0 1px 0 rgb(0 0 0 / 45%);
+  color: var(--text-color);
+  background-color: var(--primary-red);
+  background-image: linear-gradient(
+    to bottom,
+    var(--primary-red),
+    var(--primary-red)
+  );
+  box-shadow: 0 1px 0 var(--background-color);
 }
-
 
 /* TABS SECTION */
 
@@ -223,17 +235,20 @@
   width: 10rem;
   transform: scale(0.4);
 
-  -webkit-mask: url("../images/tab-section/tab-devices-icon.svg") center no-repeat;
+  -webkit-mask: url("../images/tab-section/tab-devices-icon.svg") center
+    no-repeat;
 }
 
 .tab__icon--door {
   mask: url("../images/tab-section/tab-no-commitment-icon.svg") center no-repeat;
-  -webkit-mask: url("../images/tab-section/tab-no-commitment-icon.svg") center no-repeat;
+  -webkit-mask: url("../images/tab-section/tab-no-commitment-icon.svg") center
+    no-repeat;
 }
 
 .tab__icon--price {
   mask: url("../images/tab-section/tab-prices-icon.svg") center no-repeat;
-  -webkit-mask: url("../images/tab-section/tab-prices-icon.svg") center no-repeat;
+  -webkit-mask: url("../images/tab-section/tab-prices-icon.svg") center
+    no-repeat;
 }
 
 .tabs__tab-title {
@@ -337,6 +352,8 @@
   padding-bottom: 4rem;
 }
 
+/* TABLA INFORMACIÓN */
+
 .table {
   width: min(90%, 700px);
   border-collapse: collapse;
@@ -370,6 +387,7 @@
 }
 
 /* FEAUTEURES SECTION STARTS */
+
 /* 1 ENJOY ON YOUR TV */
 .section-features .section-container {
   border-top: 8px solid #222;
@@ -415,7 +433,7 @@
   width: 73%;
 }
 
-/*2 DOWNLOAD YOU SHOW TO WATCH OFFLINE*/
+/* 2 DOWNLOAD YOU SHOW TO WATCH OFFLINE */
 .section-features .section2-container {
   border-top: 8px solid #222;
   background-color: black;
@@ -479,14 +497,14 @@
   margin-top: 5%;
 }
 
-/* 3 WATCH EVERY WHERE*/
+/* 3 WATCH EVERY WHERE */
 .section-features .section-container .right-column .video-2 {
   margin-left: 19%;
   margin-top: 8%;
   width: 61%;
 }
 
-/* 4 CREATE PROFILE FOR KIDS*/
+/* 4 CREATE PROFILE FOR KIDS */
 .section-features .section2-container .left-column img {
   width: 100%;
 }
@@ -555,12 +573,17 @@
   }
 }
 
+/* PREFERENCIAS Y MÉTRICAS - CHART.JS*/
+
 .preferences {
   margin-top: 100px;
   margin-bottom: 100px;
   margin-left: auto;
   margin-right: auto;
   max-width: 800px;
+}
+
+.preferences__title {
 }
 
 .barChart {
@@ -571,9 +594,10 @@
   margin-bottom: 50px;
 }
 
-@media (max-width: 943px) {
+/* MEDIA QUERIES - RESPONSIVE */
 
-  /*ENJOY ON YOUR TV*/
+@media (max-width: 943px) {
+  /* ENJOY ON YOUR TV */
   .section-features .section-container {
     display: block;
   }
@@ -587,7 +611,7 @@
     width: 100%;
   }
 
-  /*DOWNLOAD YOU SHOW TO WATCH OFFLINE*/
+  /* DOWNLOAD YOU SHOW TO WATCH OFFLINE */
   .section-features .section2-container {
     display: block;
   }
@@ -609,7 +633,6 @@
 }
 
 @media (max-width: 774px) {
-
   /* ENJOY ON YOUR TV */
   .section-features .section-container {
     padding-bottom: 0px;
@@ -623,8 +646,7 @@
 }
 
 @media (max-width: 500px) {
-
-  /*ENJOY ON YOUR TV*/
+  /* ENJOY ON YOUR TV */
   .section-features .section-container .right-column {
     height: 270px;
   }
