@@ -404,6 +404,11 @@
 .footer-ul-a {
   text-decoration: none;
 }
+.lastest-releases-title {
+  font-size: 2em;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
 
 .splide__arrow--prev {
   background: none;
@@ -419,6 +424,64 @@
 }
 .splide__pagination {
   visibility: hidden;
+}
+
+.splide__movie-image-container {
+  width: 200px;
+  height: 400px;
+  position: relative;
+  cursor: pointer;
+}
+.splide__movie-image-gradient {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(0deg, #000000 -10.85%, rgba(0, 0, 0, 0) 100%);
+  transition: all 0.5s;
+}
+.splide__movie-image-gradient:hover {
+  opacity: 0.7;
+}
+.splide__movie-image {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.splide__movie-details {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 3rem;
+  z-index: 3;
+}
+.splide__movie-name {
+  text-align: center;
+  font-size: 1.2em;
+  font-weight: 500;
+}
+.splide__movie-info {
+  font-size: 0.8em;
+}
+.splide__movie-button {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 0.6rem;
+  border-radius: 2px;
+  background-color: white;
+  color: black;
+  gap: 0.5rem;
+  font-size: 0.8em;
+}
+.splide__movie-button-icon {
+  width: 10px;
 }
 
 @media (min-width: 854px) {

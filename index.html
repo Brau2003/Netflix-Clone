@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+     <meta name="apple-touch-icon" content="https://assets.nflxext.com/en_us/layout/ecweb/netflix-app-icon_152.jpg">
     <title>Netflix Perú | Clone</title>
     <link
       rel="stylesheet"
@@ -18,11 +19,9 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
       rel="stylesheet"
     />
-
-    <link
-      rel="icon"
-      href="https://cdn-icons-png.flaticon.com/512/732/732228.png"
-    />
+   
+    <link rel="shortcut icon" href="https://assets.nflxext.com/us/ffe/siteui/common/icons/nficon2016.ico">
+    <link rel="apple-touch-icon" href="https://assets.nflxext.com/us/ffe/siteui/common/icons/nficon2016.png">
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/@splidejs/splide@3.6.12/dist/css/splide.min.css"
@@ -323,8 +322,7 @@
     <!-- FEATURES SECTION ENDS -->
 
     <section class="latest-releases">
-      <!-- Últimos lanzamientos slider splide.js -->
-      <h2>Últimos estrenos</h2>
+      <h2 class="lastest-releases-title">Últimos estrenos</h2>
       <div class="splide">
         <div class="splide__arrows">
           <button class="splide__arrow splide__arrow--prev"></button>
@@ -334,22 +332,166 @@
         <div class="splide__track">
           <ul class="splide__list">
             <li class="splide__slide">
-              <div>
-                <figure class="splide__movie-image-container">
-                  <img class="splide__movie-image" alt="" />
-                </figure>
-                <p class="splide__movie-name"></p>
-                <a class="splide__movie-button" href=""
-                  ><img
-                    class="splide__movie-button-icon"
-                    src="./images/lastest-releases-section/play-button.svg"
-                    alt=""
-                  />Reproducir</a
-                >
+              <div class="splide__movie-image-container" id="movie-1-slide">
+                <div class="splide__movie-details">
+                  <p class="splide__movie-name">Texas Chainsaw Massacre</p>
+                  <p class="splide__movie-info" id="movie-1-slide-info">
+                    1h 21m · 2022 · Terror
+                  </p>
+                  <a class="splide__movie-button" href=""
+                    ><img
+                      class="splide__movie-button-icon"
+                      src="./images/lastest-releases-section/play-button.svg"
+                      alt=""
+                    />Reproducir</a
+                  >
+                </div>
+                <div class="splide__movie-image-gradient"></div>
+                <img
+                  class="splide__movie-image"
+                  src="https://es.web.img3.acsta.net/pictures/22/01/31/10/28/0410704.jpg"
+                  alt=""
+                />
               </div>
             </li>
-            <li class="splide__slide">Slide 02</li>
-            <li class="splide__slide">Slide 03</li>
+            <li class="splide__slide">
+              <div class="splide__movie-image-container" id="movie-2-slide">
+                <div class="splide__movie-details">
+                  <p class="splide__movie-name">El regreso a casa de Madea</p>
+                  <p class="splide__movie-info" id="movie-2-slide-info">
+                    1h 30m · 2022 · Comedia
+                  </p>
+                  <a class="splide__movie-button" href=""
+                    ><img
+                      class="splide__movie-button-icon"
+                      src="./images/lastest-releases-section/play-button.svg"
+                      alt=""
+                    />Reproducir</a
+                  >
+                </div>
+                <div class="splide__movie-image-gradient"></div>
+                <img
+                  class="splide__movie-image"
+                  src="https://pics.filmaffinity.com/El_regreso_a_casa_de_Madea-716480522-large.jpg"
+                  alt=""
+                />
+              </div>
+            </li>
+            <li class="splide__slide">
+              <div class="splide__movie-image-container" id="movie-1-slide">
+                <div class="splide__movie-details">
+                  <p class="splide__movie-name">Uncharted</p>
+                  <p class="splide__movie-info" id="movie-1-slide-info">
+                    1h 21m · 2022 · Aventura
+                  </p>
+                  <a class="splide__movie-button" href=""
+                    ><img
+                      class="splide__movie-button-icon"
+                      src="./images/lastest-releases-section/play-button.svg"
+                      alt=""
+                    />Reproducir</a
+                  >
+                </div>
+                <div class="splide__movie-image-gradient"></div>
+                <img
+                  class="splide__movie-image"
+                  src="https://m.media-amazon.com/images/M/MV5BOTNkN2ZmMzItOTAwMy00MmM5LTg5YTgtNmE5MThkMDE2ODJiXkEyXkFqcGdeQXVyMDA4NzMyOA@@._V1_FMjpg_UX1000_.jpg"
+                  alt=""
+                />
+              </div>
+            </li>
+            <li class="splide__slide">
+              <div class="splide__movie-image-container" id="movie-1-slide">
+                <div class="splide__movie-details">
+                  <p class="splide__movie-name">Madres Paralelas</p>
+                  <p class="splide__movie-info" id="movie-1-slide-info">
+                    1h 21m · 2022 · Drama
+                  </p>
+                  <a class="splide__movie-button" href=""
+                    ><img
+                      class="splide__movie-button-icon"
+                      src="./images/lastest-releases-section/play-button.svg"
+                      alt=""
+                    />Reproducir</a
+                  >
+                </div>
+                <div class="splide__movie-image-gradient"></div>
+                <img
+                  class="splide__movie-image"
+                  src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQgnrWIxW8KGegZq3qgUuJoNPRDxRYh15R1g4q7z9Fl3dUETXqU"
+                  alt=""
+                />
+              </div>
+            </li>
+            <li class="splide__slide">
+              <div class="splide__movie-image-container" id="movie-1-slide">
+                <div class="splide__movie-details">
+                  <p class="splide__movie-name">Forgive Us Our Trespasses</p>
+                  <p class="splide__movie-info" id="movie-1-slide-info">
+                    1h 21m · 2022 · Drama
+                  </p>
+                  <a class="splide__movie-button" href=""
+                    ><img
+                      class="splide__movie-button-icon"
+                      src="./images/lastest-releases-section/play-button.svg"
+                      alt=""
+                    />Reproducir</a
+                  >
+                </div>
+                <div class="splide__movie-image-gradient"></div>
+                <img
+                  class="splide__movie-image"
+                  src="https://m.media-amazon.com/images/M/MV5BY2M3MDcyM2MtNDg1NC00YzA0LWJlNWUtMmRlYWJmNzRkMjM3XkEyXkFqcGdeQXVyOTU1NDE0NDY@._V1_.jpg"
+                  alt=""
+                />
+              </div>
+            </li>
+            <li class="splide__slide">
+              <div class="splide__movie-image-container" id="movie-1-slide">
+                <div class="splide__movie-details">
+                  <p class="splide__movie-name">El Estafador de Tinder</p>
+                  <p class="splide__movie-info" id="movie-1-slide-info">
+                    1h 21m · 2022 · Documental
+                  </p>
+                  <a class="splide__movie-button" href=""
+                    ><img
+                      class="splide__movie-button-icon"
+                      src="./images/lastest-releases-section/play-button.svg"
+                      alt=""
+                    />Reproducir</a
+                  >
+                </div>
+                <div class="splide__movie-image-gradient"></div>
+                <img
+                  class="splide__movie-image"
+                  src="https://es.web.img3.acsta.net/pictures/22/01/12/09/46/2351700.jpg"
+                  alt=""
+                />
+              </div>
+            </li>
+            <li class="splide__slide">
+              <div class="splide__movie-image-container" id="movie-1-slide">
+                <div class="splide__movie-details">
+                  <p class="splide__movie-name">Chernóbil: La película</p>
+                  <p class="splide__movie-info" id="movie-1-slide-info">
+                    1h 21m · 2021 · Histórico
+                  </p>
+                  <a class="splide__movie-button" href=""
+                    ><img
+                      class="splide__movie-button-icon"
+                      src="./images/lastest-releases-section/play-button.svg"
+                      alt=""
+                    />Reproducir</a
+                  >
+                </div>
+                <div class="splide__movie-image-gradient"></div>
+                <img
+                  class="splide__movie-image"
+                  src="https://static.cinepolis.com/resources/mx/movies/posters/414x603/37466-584458-20211028010539.jpg"
+                  alt=""
+                />
+              </div>
+            </li>
           </ul>
         </div>
       </div>

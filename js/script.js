@@ -3,6 +3,10 @@ const documentReady = () => {
   const tabHeaderItems = document.querySelectorAll(".tabs__tab-item");
   const tabContentItems = document.querySelectorAll(".tab-content__item");
   const tabHeaderIcons = document.querySelectorAll(".tab__icon");
+  const movieTypes = document.querySelectorAll(".splide__movie-info");
+  const movieContainer = document.querySelectorAll(
+    ".splide__movie-image-container"
+  );
 
   function removeHeaderTabActive() {
     tabHeaderItems.forEach((item) => {
@@ -46,6 +50,12 @@ const documentReady = () => {
     item.addEventListener("click", selectTabItem);
     item.addEventListener("mouseenter", enterTabItem);
     item.addEventListener("mouseleave", leaveTabItem);
+  });
+  movieContainer.forEach((movie) => {
+    movie.addEventListener("mouseenter", () => {});
+    movie.addEventListener("mouseleave", () => {
+      console.log("unhovered");
+    });
   });
 };
 
