@@ -4,21 +4,17 @@
   --button-color: #e30813;
   --primary-red: #e30813;
   --primary-gray: #767676;
-  --hero-section-gradient-bg: linear-gradient(
-    to top,
-    rgba(0, 0, 0, 0.8) 0,
-    rgba(0, 0, 0, 0) 60%,
-    rgba(0, 0, 0, 0.8) 100%
-  );
+  --hero-section-gradient-bg: linear-gradient(to top,
+      rgba(0, 0, 0, 0.8) 0,
+      rgba(0, 0, 0, 0) 60%,
+      rgba(0, 0, 0, 0.8) 100%);
   --separators-color: #222222;
   --tab-section-bg: #1b1b1b;
   --tab-section-table-gray: #262626;
   --faq-section-bg: #303030;
-  --gradient-slider-content: linear-gradient(
-    0deg,
-    #000000 -40.85%,
-    rgba(0, 0, 0, 0) 100%
-  );
+  --gradient-slider-content: linear-gradient(0deg,
+      #000000 -40.85%,
+      rgba(0, 0, 0, 0) 100%);
   --footer-link-color: #757575;
   --hero-font-size: 3.75em;
   --features-title-font-size: 3.125em;
@@ -76,13 +72,42 @@
   background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/ed0b5df9-ba9d-4534-bd09-57993daeda56/7cfa3334-407a-4866-8411-8c0c69efed1a/PE-es-20220214-popsignuptwoweeks-perspective_alpha_website_small.jpg);
 }
 
+.main__title {
+  font-size: 3.125rem;
+  margin: 0 auto;
+  line-height: 1.1;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+}
+
+.main__subtitle {
+  font-size: 1.625rem;
+  margin: 1rem auto;
+  font-weight: 400;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+
+.main__question {
+  padding: 0 10%;
+  margin: 0 auto;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+
+
 /* TABS SECTION */
+
 .tabs__header-container {
   width: min(1250px, 90%);
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 }
+
 .tabs__tab-item {
   display: flex;
   flex-direction: column;
@@ -94,6 +119,7 @@
   cursor: pointer;
   transition: all 0.5s;
 }
+
 .tabs__tab-item:hover {
   color: white;
 }
@@ -111,9 +137,11 @@
   transform: scale(0.5);
   margin: -0.8rem 0;
 }
+
 .tab__icon:hover {
   background-color: #fff;
 }
+
 .tab__icon--active {
   background-color: #fff;
 }
@@ -122,24 +150,25 @@
   background-color: #fff;
   transition: all 0.5s;
 }
+
 .tab__icon--devices {
   mask: url("../images/tab-section/tab-devices-icon.svg") center no-repeat;
   width: 10rem;
   transform: scale(0.4);
 
-  -webkit-mask: url("../images/tab-section/tab-devices-icon.svg") center
-    no-repeat;
+  -webkit-mask: url("../images/tab-section/tab-devices-icon.svg") center no-repeat;
 }
+
 .tab__icon--door {
   mask: url("../images/tab-section/tab-no-commitment-icon.svg") center no-repeat;
-  -webkit-mask: url("../images/tab-section/tab-no-commitment-icon.svg") center
-    no-repeat;
+  -webkit-mask: url("../images/tab-section/tab-no-commitment-icon.svg") center no-repeat;
 }
+
 .tab__icon--price {
   mask: url("../images/tab-section/tab-prices-icon.svg") center no-repeat;
-  -webkit-mask: url("../images/tab-section/tab-prices-icon.svg") center
-    no-repeat;
+  -webkit-mask: url("../images/tab-section/tab-prices-icon.svg") center no-repeat;
 }
+
 .tabs__tab-title {
   margin-top: 0.5rem;
   font-size: 0.8em;
@@ -163,6 +192,7 @@
   opacity: 1 !important;
   transition: all 1s;
 }
+
 .tab-content__inner {
   display: flex;
   flex-direction: column;
@@ -171,6 +201,7 @@
   gap: 1rem;
   padding-bottom: 4rem;
 }
+
 .tab-content__inner-cta {
   padding: 4rem 0;
   width: min(90%, 800px);
@@ -198,9 +229,11 @@
   font-weight: 600;
   margin-bottom: 1.5rem;
 }
+
 .tab-content__image-container {
   width: min(90%, 400px);
 }
+
 .tab-content__image {
   width: 100%;
   margin: 0 auto;
@@ -223,9 +256,11 @@
   gap: 2rem;
   padding-bottom: 4rem;
 }
+
 .tab-content__item {
   padding-bottom: 4rem;
 }
+
 .table {
   width: min(90%, 700px);
   border-collapse: collapse;
@@ -411,12 +446,14 @@
   background-repeat: no-repeat;
   position: center;
 }
+
 .splide__arrow--next {
   background: none;
   background-image: url("../images/lastest-releases-section/right.svg");
   background-repeat: no-repeat;
   position: center;
 }
+
 .splide__pagination {
   visibility: hidden;
 }
@@ -426,14 +463,17 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
+
   .tab-2-content-bottom {
     flex-direction: row;
   }
+
   .tab-content__inner-cta {
     grid-template-columns: 2fr 1fr;
     grid-template-rows: 1fr;
     gap: 3rem;
   }
+
   .tab-content__button {
     width: 100%;
   }
@@ -456,6 +496,7 @@
 }
 
 @media (max-width: 943px) {
+
   /*ENJOY ON YOUR TV*/
   .section-features .section-container {
     display: block;
@@ -492,10 +533,12 @@
 }
 
 @media (max-width: 774px) {
+
   /* ENJOY ON YOUR TV */
   .section-features .section-container {
     padding-bottom: 0px;
   }
+
   .features-tittle {
     color: white;
     font-size: 2.5rem;
@@ -504,6 +547,7 @@
 }
 
 @media (max-width: 500px) {
+
   /*ENJOY ON YOUR TV*/
   .section-features .section-container .right-column {
     height: 270px;
