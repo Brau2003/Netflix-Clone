@@ -52,6 +52,19 @@
       </nav>
     </header>
 
+<body class="body">
+  <header class="header">
+    <nav class="header-nav">
+      <div class="header-nav-container">
+        <a class="header-nav__logo-container" href="#">
+          <img class="header-nav__logo" src="https://assets.stickpng.com/thumbs/580b57fcd9996e24bc43c529.png"
+            alt="Logo Netflix" class="header-nav__logo" />
+        </a>
+        <select name="" id="" class="hader-nav__button">
+          <option value="">Español</option>
+          <option value="">English</option>
+        </select>
+        <a href="" class="header-nav__signin">Iniciar sesión</a>
     <main class="main">
       <h1 class="main__title">Películas y series ilimitadas y mucho más.</h1>
       <p class="main__subtitle">
@@ -75,6 +88,26 @@
       </div>
     </main>
 
+  <main class="main">
+    <h1 class="main__title">Películas y series ilimitadas y mucho más.</h1>
+    <p class="main__subtitle">Disfruta donde quieras. Cancela cuando quieras.</p>
+    <p class="main__question">
+      ¿Quieres ver Netflix ya? Ingresa tu email para crear una cuenta o
+      reiniciar tu membresía de Netflix.
+    </p>
+    <input type="email" placeholder="Email" autocomplete="email" id="id-email" class="email__box" maxlength="50"
+      minlength="5" />
+    <div>
+      <button class="main__button" type="submit">Comenzar</button>
+    </div>
+  </main>
+
+  <section class="tabs">
+    <div class="tabs__header">
+      <div class="tabs__header-container">
+        <div id="tab-1" class="tabs__tab-item tabs__tab-item--active">
+          <div id="icon-tab-1" class="tab__icon tab__icon--door tab__icon--active"></div>
+          <p class="tabs__tab-title">Cancela cuando quieras</p>
     <section class="tabs">
       <div class="tabs__header">
         <div class="tabs__header-container">
@@ -356,6 +389,29 @@
       </div>
     </section>
 
+      <div class="splide__track">
+        <ul class="splide__list">
+          <li class="splide__slide">
+            <div>
+              <figure class="splide__movie-image-container">
+                <img class="splide__movie-image" alt="" />
+              </figure>
+              <p class="splide__movie-name"></p>
+              <a class="splide__movie-button" href=""><img class="splide__movie-button-icon"
+                  src="./images/lastest-releases-section/play-button.svg" alt="" />Reproducir</a>
+            </div>
+          </li>
+          <li class="splide__slide">Slide 02</li>
+          <li class="splide__slide">Slide 03</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <section class="preferences">
+    <h2>Estadísticas de nuestras películas y series.</h2>
+    <p>Tenemos una gran variedad de películas y series.</p>
+    <canvas id="myChart" class="barChart"></canvas>
+  </section>
     <section class="preferences">
       <h2 class="preferences__title">
         Estadísticas de nuestras películas y series.
@@ -364,6 +420,12 @@
       <canvas id="myChart" class="barChart"></canvas>
     </section>
 
+  <section class="email-address-container">
+    <p class="email__tittle">¿Quieres ver Netflix ya? Ingresa tu email para crear una cuenta o
+      reiniciar tu membresía de Netflix.</p>
+    <input type="email" placeholder="Email" autocomplete="email" id="id-email" maxlength="50" minlength="5">
+    <button type="submit">Comenzar ></button>
+  </section>
     <section class="faq">
       <h2>Preguntas frecuentes</h2>
       <p>

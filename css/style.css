@@ -511,6 +511,42 @@
 
 /* FEATURES SECTION ENDS */
 
+
+/* ENAIL */
+.email-address-container{
+  z-index: 2;
+  position: relative;
+  text-align: center;
+  width: 100%;
+  padding-top: -4rem;
+  padding-bottom: 4%;
+  background-color: black;
+}
+.email__tittle{
+  font-size: 1.3rem;
+  padding-bottom: 8px;
+  
+}
+
+.email-address-container input{
+  width: 35%;
+  padding: 22px;
+  border: none;
+  margin-top: 0.5%;
+  outline: none;
+  font-size: 1.3rem;
+}
+.email-address-container button{
+  padding: 22px;
+  border: none;
+  background-color: #e50914;
+  color: white;
+  margin-left: -0.3%;
+  font-weight: bold;
+  font-size: 1.3rem;
+  cursor: wait;
+}
+
 .section {
   border-bottom: 8px solid #222;
 }
