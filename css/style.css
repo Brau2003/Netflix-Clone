@@ -4,21 +4,17 @@
   --button-color: #e30813;
   --primary-red: #e30813;
   --primary-gray: #767676;
-  --hero-section-gradient-bg: linear-gradient(
-    to top,
-    rgba(0, 0, 0, 0.8) 0,
-    rgba(0, 0, 0, 0) 60%,
-    rgba(0, 0, 0, 0.8) 100%
-  );
+  --hero-section-gradient-bg: linear-gradient(to top,
+      rgba(0, 0, 0, 0.8) 0,
+      rgba(0, 0, 0, 0) 60%,
+      rgba(0, 0, 0, 0.8) 100%);
   --separators-color: #222222;
   --tab-section-bg: #1b1b1b;
   --tab-section-table-gray: #262626;
   --faq-section-bg: #303030;
-  --gradient-slider-content: linear-gradient(
-    0deg,
-    #000000 -40.85%,
-    rgba(0, 0, 0, 0) 100%
-  );
+  --gradient-slider-content: linear-gradient(0deg,
+      #000000 -40.85%,
+      rgba(0, 0, 0, 0) 100%);
   --footer-link-color: #757575;
   --hero-font-size: 3.75em;
   --features-title-font-size: 3.125em;
@@ -70,108 +66,126 @@
 }
 
 /* FEAUTEURES SECTION STARTS */
-    /* 1 ENJOY ON YOUR TV */
-    .section-features .section-container{
-      border-top: 8px solid #222;
-      background-color: black;
-      display: flex;
-      padding: 0px 80px;
-      padding-bottom: 90px;
-  }
-  .section-features .section-container .left-column{
-      padding-top: 13%;
-      padding-right: 2%;
-  }
-  .features-tittle {
-      color: white;
-      font-size: 3.5rem;
-      font-weight: 700;
-  }
-  .section-features .section-container .left-column h3{
-      color: white;
-      font-size: 1.4rem;
-      font-weight: normal;
-      margin-top: 5%;
-  }
-  .section-features .section-container .right-column{
-      overflow: hidden;
-      position: relative;
-      width: 80%;
-      height: 500px;
-  }
-  .section-features .section-container .right-column img{
-      position: absolute;
-      width: 100%;
-  }
-  .section-features .section-container .right-column .video-1{
-      margin-left: 13%;
-      margin-top: 16%;
-      width: 73%;
-  }
-  /*2 DOWNLOAD YOU SHOW TO WATCH OFFLINE*/
-  .section-features .section2-container{
-      border-top: 8px solid #222;
-      background-color: black;
-      display: flex;
-      padding: 0px 80px;
-      padding-bottom: 90px;
-  }
-  .section-features .section2-container .left-column img{
-      width: 100%;
-  }
-  .section-features .section2-container .left-column .box{
-      border: 2px solid rgba(255,255,255,.25);
-      background-color: black;
-      border-radius: 10px;
-      width: 60%;
-      padding: 10px;
-      display: flex;
-      align-items: center;
-      margin: 0 auto;
-      overflow: hidden;
-      position: relative;
-      margin-top: -22%;
-  }
-  .section-features .section2-container .left-column .box .boxshot{
-      width: 15%;
-  }
-  .section-features .section2-container .left-column .box p{
-      margin-left: 5%;
-      margin-top: 3%;
-  }
-  .section-features .section2-container .left-column .box p a{
-      text-decoration: none;
-  }
-  .section-features .section2-container .left-column .box .download-gif{
-      width: 3em;
-      height: 3em;
-      position: absolute; 
-      right: 0;
-  }
-  .section-features .section2-container .right-column{
-      padding-top: 13%;
-      padding-right: 2%;
-      width: 50%;
-  }
-  .section-features .section2-container .right-column h1{
-      color: white;
-  }
-  .section-features .section2-container .right-column h3{
-      color: white;
-      font-size: 1.4rem;
-      font-weight: normal;
-      margin-top: 5%;
-  }
-  /* 3 WATCH EVERY WHERE*/
-  .section-features .section-container .right-column .video-2{
-      margin-left: 19%;
-      margin-top: 8%;
-      width: 61%;
-  }
-  /* 4 CREATE PROFILE FOR KIDS*/
-  .section-features .section2-container .left-column img{
-      width: 100%;
-  }
+/* 1 ENJOY ON YOUR TV */
+.section-features .section-container {
+  border-top: 8px solid #222;
+  background-color: black;
+  display: flex;
+  padding: 0px 80px;
+  padding-bottom: 90px;
+}
+
+.section-features .section-container .left-column {
+  padding-top: 13%;
+  padding-right: 2%;
+}
+
+.features-tittle {
+  color: white;
+  font-size: 3.33rem;
+  font-weight: 600;
+}
+
+.section-features .section-container .left-column h3 {
+  color: white;
+  font-size: 1.4rem;
+  font-weight: normal;
+  margin-top: 5%;
+}
+
+.section-features .section-container .right-column {
+  overflow: hidden;
+  position: relative;
+  width: 80%;
+  height: 500px;
+}
+
+.section-features .section-container .right-column img {
+  position: absolute;
+  width: 100%;
+}
+
+.section-features .section-container .right-column .video-1 {
+  margin-left: 13%;
+  margin-top: 16%;
+  width: 73%;
+}
+
+/*2 DOWNLOAD YOU SHOW TO WATCH OFFLINE*/
+.section-features .section2-container {
+  border-top: 8px solid #222;
+  background-color: black;
+  display: flex;
+  padding: 0px 80px;
+  padding-bottom: 90px;
+}
+
+.section-features .section2-container .left-column img {
+  width: 100%;
+}
+
+.section-features .section2-container .left-column .box {
+  border: 2px solid rgba(255, 255, 255, .25);
+  background-color: black;
+  border-radius: 10px;
+  width: 60%;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+  margin-top: -22%;
+}
+
+.section-features .section2-container .left-column .box .boxshot {
+  width: 15%;
+}
+
+.section-features .section2-container .left-column .box p {
+  margin-left: 5%;
+  margin-top: 3%;
+}
+
+.section-features .section2-container .left-column .box p a {
+  text-decoration: none;
+}
+
+.section-features .section2-container .left-column .box .download-gif {
+  width: 3em;
+  height: 3em;
+  position: absolute;
+  right: 0;
+}
+
+.section-features .section2-container .right-column {
+  padding-top: 13%;
+  padding-right: 2%;
+  width: 50%;
+}
+
+.section-features .section2-container .right-column h1 {
+  color: white;
+}
+
+.section-features .section2-container .right-column h3 {
+  color: white;
+  font-size: 1.4rem;
+  font-weight: normal;
+  margin-top: 5%;
+}
+
+/* 3 WATCH EVERY WHERE*/
+.section-features .section-container .right-column .video-2 {
+  margin-left: 19%;
+  margin-top: 8%;
+  width: 61%;
+}
+
+/* 4 CREATE PROFILE FOR KIDS*/
+.section-features .section2-container .left-column img {
+  width: 100%;
+}
 
 /* FEATURES SECTION ENDS */
 
@@ -219,4 +233,74 @@
 
 .videoNetflix {
   margin-bottom: 50px;
+}
+
+@media (max-width: 943px) {
+
+  /*ENJOY ON YOUR TV*/
+  .section-features .section-container {
+    display: block;
+  }
+
+  .section-features .section-container .left-column {
+    width: 100%;
+    text-align: center;
+  }
+
+  .section-features .section-container .right-column {
+    width: 100%;
+  }
+
+  /*DOWNLOAD YOU SHOW TO WATCH OFFLINE*/
+  .section-features .section2-container {
+    display: block;
+  }
+
+  .section-features .section2-container .left-column {
+    width: 100%;
+  }
+
+  .section-features .section2-container .right-column {
+    width: 100%;
+    text-align: center;
+  }
+
+  .features-tittle {
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 700;
+  }
+}
+
+@media (max-width: 774px) {
+
+  /* ENJOY ON YOUR TV */
+  .section-features .section-container {
+    padding-bottom: 0px;
+  }
+  .features-tittle {
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 700;
+  }
+}
+
+@media (max-width: 500px) {
+
+  /*ENJOY ON YOUR TV*/
+  .section-features .section-container .right-column {
+    height: 270px;
+  }
+
+  /* DOWNLOAD YOUR SHOW TO WATCH OFFLINE */
+  .section-features .section2-container .left-column .box {
+    width: 100%;
+  }
+
+  .features-tittle {
+    color: white;
+    font-size: 2rem;
+    font-weight: 700;
+  }
+
 }
