@@ -11,7 +11,7 @@
     rgba(0, 0, 0, 0.8) 100%
   );
   --separators-color: #222222;
-  --tab-section-header-bg: #1b1b1b;
+  --tab-section-bg: #1b1b1b;
   --tab-section-table-gray: #262626;
   --faq-section-bg: #303030;
   --gradient-slider-content: linear-gradient(
@@ -25,9 +25,6 @@
   --features-paragraph-font-size: 1.5em;
   --tab-subtitle-font-size: 1.25em;
   scroll-behavior: smooth;
-}
-* {
-  box-sizing: border-box;
 }
 
 .body {
@@ -63,7 +60,7 @@
 }
 
 .header-nav__logo {
-  width: 100%;
+  height: 100%;
   height: 100%;
 }
 
@@ -74,53 +71,55 @@
 
 /* FEAUTEURES SECTION STARTS */
     /* 1 ENJOY ON YOUR TV */
-    .main-section .section-container{
+    .section-features .section-container{
       border-top: 8px solid #222;
       background-color: black;
       display: flex;
       padding: 0px 80px;
       padding-bottom: 90px;
   }
-  .main-section .section-container .left-column{
+  .section-features .section-container .left-column{
       padding-top: 13%;
       padding-right: 2%;
   }
-  .main-section .section-container .left-column h1{
+  .features-tittle {
       color: white;
+      font-size: 3.5rem;
+      font-weight: 700;
   }
-  .main-section .section-container .left-column h3{
+  .section-features .section-container .left-column h3{
       color: white;
       font-size: 1.4rem;
       font-weight: normal;
       margin-top: 5%;
   }
-  .main-section .section-container .right-column{
+  .section-features .section-container .right-column{
       overflow: hidden;
       position: relative;
       width: 80%;
       height: 500px;
   }
-  .main-section .section-container .right-column img{
+  .section-features .section-container .right-column img{
       position: absolute;
       width: 100%;
   }
-  .main-section .section-container .right-column .video-1{
+  .section-features .section-container .right-column .video-1{
       margin-left: 13%;
       margin-top: 16%;
       width: 73%;
   }
   /*2 DOWNLOAD YOU SHOW TO WATCH OFFLINE*/
-  .main-section .section2-container{
+  .section-features .section2-container{
       border-top: 8px solid #222;
       background-color: black;
       display: flex;
       padding: 0px 80px;
       padding-bottom: 90px;
   }
-  .main-section .section2-container .left-column img{
+  .section-features .section2-container .left-column img{
       width: 100%;
   }
-  .main-section .section2-container .left-column .box{
+  .section-features .section2-container .left-column .box{
       border: 2px solid rgba(255,255,255,.25);
       background-color: black;
       border-radius: 10px;
@@ -133,47 +132,47 @@
       position: relative;
       margin-top: -22%;
   }
-  .main-section .section2-container .left-column .box .boxshot{
+  .section-features .section2-container .left-column .box .boxshot{
       width: 15%;
   }
-  .main-section .section2-container .left-column .box p{
+  .section-features .section2-container .left-column .box p{
       margin-left: 5%;
       margin-top: 3%;
   }
-  .main-section .section2-container .left-column .box p a{
+  .section-features .section2-container .left-column .box p a{
       text-decoration: none;
   }
-  .main-section .section2-container .left-column .box .download-gif{
+  .section-features .section2-container .left-column .box .download-gif{
       width: 3em;
       height: 3em;
       position: absolute; 
       right: 0;
   }
-  .main-section .section2-container .right-column{
+  .section-features .section2-container .right-column{
       padding-top: 13%;
       padding-right: 2%;
       width: 50%;
   }
-  .main-section .section2-container .right-column h1{
+  .section-features .section2-container .right-column h1{
       color: white;
   }
-  .main-section .section2-container .right-column h3{
+  .section-features .section2-container .right-column h3{
       color: white;
       font-size: 1.4rem;
       font-weight: normal;
       margin-top: 5%;
   }
   /* 3 WATCH EVERY WHERE*/
-  .main-section .section-container .right-column .video-2{
+  .section-features .section-container .right-column .video-2{
       margin-left: 19%;
       margin-top: 8%;
       width: 61%;
   }
   /* 4 CREATE PROFILE FOR KIDS*/
-  .main-section .section2-container .left-column img{
+  .section-features .section2-container .left-column img{
       width: 100%;
   }
-  
+
 /* FEATURES SECTION ENDS */
 
 .section {
@@ -197,65 +196,6 @@
 
 .footer-ul-a {
   text-decoration: none;
-}
-.tabs {
-  margin: 0 auto;
-}
-.tabs__header {
-  background-color: var(--tab-section-header-bg);
-  width: 100%;
-}
-.tabs__header-container {
-  width: min(1250px, 90%);
-  margin: 0 auto;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  /* padding: 1.5rem 0; */
-}
-.tabs__tab-item {
-  display: flex;
-  flex-direction: column;
-  justify-content: start;
-  align-items: center;
-  padding: 1rem 0 0.7rem;
-  /* border-bottom: solid var(--primary-red); */
-}
-.tabs__tab-image-container {
-  margin: 0;
-  width: 22px;
-}
-.tabs__tab-image-container--devices {
-  width: 53px;
-}
-.tabs__tab-image {
-  width: 100%;
-}
-.tabs__tab-title {
-  margin-top: 0.5rem;
-  font-size: 0.8em;
-  color: var(--primary-gray);
-  font-weight: 500;
-}
-.tab-content {
-  width: min(1250px, 90%);
-  margin: 0 auto;
-}
-.tab-content__button {
-  padding: 1rem;
-  border-radius: 2px;
-  background-color: var(--primary-red);
-  font-weight: 700;
-  width: fit-content;
-}
-.tab-content__inner {
-  display: flex;
-  flex-direction: column;
-  gap: 1.5rem;
-  align-items: center;
-  padding: 3rem 0;
-}
-.tab-content__image {
-  width: 100%;
 }
 
 @media (min-width: 854px) {
