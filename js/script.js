@@ -9,6 +9,7 @@ const documentReady = () => {
       item.classList.remove("tabs__tab-item--active");
     });
   }
+
   function removeTabIconActive() {
     tabHeaderIcons.forEach((icon) => {
       icon.classList.remove("tab__icon--active");
@@ -20,6 +21,7 @@ const documentReady = () => {
       item.classList.remove("show");
     });
   }
+
   function selectTabItem() {
     removeHeaderTabActive();
     removeTabShow();
