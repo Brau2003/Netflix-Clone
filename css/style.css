@@ -405,6 +405,22 @@
   text-decoration: none;
 }
 
+.splide__arrow--prev {
+  background: none;
+  background-image: url("../images/lastest-releases-section/left.svg");
+  background-repeat: no-repeat;
+  position: center;
+}
+.splide__arrow--next {
+  background: none;
+  background-image: url("../images/lastest-releases-section/right.svg");
+  background-repeat: no-repeat;
+  position: center;
+}
+.splide__pagination {
+  visibility: hidden;
+}
+
 @media (min-width: 854px) {
   .footer-ul {
     display: grid;

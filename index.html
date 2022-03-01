@@ -23,6 +23,10 @@
       rel="icon"
       href="https://cdn-icons-png.flaticon.com/512/732/732228.png"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@splidejs/splide@3.6.12/dist/css/splide.min.css"
+    />
     <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="./css/style.css" />
   </head>
@@ -91,10 +95,11 @@
 
       <div class="tab-content">
         <div class="tab-content__container">
-          <!-- Tab Content 1 -->
           <div id="tab-1-content" class="tab-1-content tab-content__item show">
             <div class="tab-content__inner">
-              <div class="tab-content__inner-cta tab-content__inner-cta--cancel">
+              <div
+                class="tab-content__inner-cta tab-content__inner-cta--cancel"
+              >
                 <p class="tab-content__description">
                   Si decides que Netflix no es para ti - no hay problema. Sin
                   compromisos. Cancela en linea en cualquier momento.
@@ -113,7 +118,6 @@
             </div>
           </div>
 
-          <!-- Tab Content 2 -->
           <div id="tab-2-content" class="tab-2-content tab-content__item">
             <div class="tab-content__inner-cta">
               <p class="tab-content__description">
@@ -165,7 +169,6 @@
             </div>
           </div>
 
-          <!-- Tab Content 3 -->
           <div id="tab-3-content" class="tab-3-content tab-content__item">
             <div class="tab-content__inner-cta">
               <p class="tab-content__description">
@@ -321,6 +324,35 @@
 
     <section class="latest-releases">
       <!-- Últimos lanzamientos slider splide.js -->
+      <h2>Últimos estrenos</h2>
+      <div class="splide">
+        <div class="splide__arrows">
+          <button class="splide__arrow splide__arrow--prev"></button>
+          <button class="splide__arrow splide__arrow--next"></button>
+        </div>
+
+        <div class="splide__track">
+          <ul class="splide__list">
+            <li class="splide__slide">
+              <div>
+                <figure class="splide__movie-image-container">
+                  <img class="splide__movie-image" alt="" />
+                </figure>
+                <p class="splide__movie-name"></p>
+                <a class="splide__movie-button" href=""
+                  ><img
+                    class="splide__movie-button-icon"
+                    src="./images/lastest-releases-section/play-button.svg"
+                    alt=""
+                  />Reproducir</a
+                >
+              </div>
+            </li>
+            <li class="splide__slide">Slide 02</li>
+            <li class="splide__slide">Slide 03</li>
+          </ul>
+        </div>
+      </div>
     </section>
     <section class="preferences">
       <h2>Estadísticas de nuestras películas y series.</h2>
@@ -410,6 +442,11 @@
     </footer>
 
     <script src="./js/script.js" type="module"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@3.6.12/dist/js/splide.min.js"></script>
+    <script src="./js/splide-extension-auto-scroll.min.js"></script>
+    <script src="./js/splide.js" type="module"></script>
+
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="./js/alerts.js"></script>
 
