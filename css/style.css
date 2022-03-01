@@ -28,6 +28,10 @@
 }
 * {
   box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
 }
 
 .body {
@@ -73,107 +77,107 @@
 }
 
 /* FEAUTEURES SECTION STARTS */
-    /* 1 ENJOY ON YOUR TV */
-    .main-section .section-container{
-      border-top: 8px solid #222;
-      background-color: black;
-      display: flex;
-      padding: 0px 80px;
-      padding-bottom: 90px;
-  }
-  .main-section .section-container .left-column{
-      padding-top: 13%;
-      padding-right: 2%;
-  }
-  .main-section .section-container .left-column h1{
-      color: white;
-  }
-  .main-section .section-container .left-column h3{
-      color: white;
-      font-size: 1.4rem;
-      font-weight: normal;
-      margin-top: 5%;
-  }
-  .main-section .section-container .right-column{
-      overflow: hidden;
-      position: relative;
-      width: 80%;
-      height: 500px;
-  }
-  .main-section .section-container .right-column img{
-      position: absolute;
-      width: 100%;
-  }
-  .main-section .section-container .right-column .video-1{
-      margin-left: 13%;
-      margin-top: 16%;
-      width: 73%;
-  }
-  /*2 DOWNLOAD YOU SHOW TO WATCH OFFLINE*/
-  .main-section .section2-container{
-      border-top: 8px solid #222;
-      background-color: black;
-      display: flex;
-      padding: 0px 80px;
-      padding-bottom: 90px;
-  }
-  .main-section .section2-container .left-column img{
-      width: 100%;
-  }
-  .main-section .section2-container .left-column .box{
-      border: 2px solid rgba(255,255,255,.25);
-      background-color: black;
-      border-radius: 10px;
-      width: 60%;
-      padding: 10px;
-      display: flex;
-      align-items: center;
-      margin: 0 auto;
-      overflow: hidden;
-      position: relative;
-      margin-top: -22%;
-  }
-  .main-section .section2-container .left-column .box .boxshot{
-      width: 15%;
-  }
-  .main-section .section2-container .left-column .box p{
-      margin-left: 5%;
-      margin-top: 3%;
-  }
-  .main-section .section2-container .left-column .box p a{
-      text-decoration: none;
-  }
-  .main-section .section2-container .left-column .box .download-gif{
-      width: 3em;
-      height: 3em;
-      position: absolute; 
-      right: 0;
-  }
-  .main-section .section2-container .right-column{
-      padding-top: 13%;
-      padding-right: 2%;
-      width: 50%;
-  }
-  .main-section .section2-container .right-column h1{
-      color: white;
-  }
-  .main-section .section2-container .right-column h3{
-      color: white;
-      font-size: 1.4rem;
-      font-weight: normal;
-      margin-top: 5%;
-  }
-  /* 3 WATCH EVERY WHERE*/
-  .main-section .section-container .right-column .video-2{
-      margin-left: 19%;
-      margin-top: 8%;
-      width: 61%;
-  }
-  /* 4 CREATE PROFILE FOR KIDS*/
-  .main-section .section2-container .left-column img{
-      width: 100%;
-  }
-  
+/* 1 ENJOY ON YOUR TV */
+.main-section .section-container {
+  border-top: 8px solid #222;
+  background-color: black;
+  display: flex;
+  padding: 0px 80px;
+  padding-bottom: 90px;
+}
+.main-section .section-container .left-column {
+  padding-top: 13%;
+  padding-right: 2%;
+}
+.main-section .section-container .left-column h1 {
+  color: white;
+}
+.main-section .section-container .left-column h3 {
+  color: white;
+  font-size: 1.4rem;
+  font-weight: normal;
+  margin-top: 5%;
+}
+.main-section .section-container .right-column {
+  overflow: hidden;
+  position: relative;
+  width: 80%;
+  height: 500px;
+}
+.main-section .section-container .right-column img {
+  position: absolute;
+  width: 100%;
+}
+.main-section .section-container .right-column .video-1 {
+  margin-left: 13%;
+  margin-top: 16%;
+  width: 73%;
+}
+/*2 DOWNLOAD YOU SHOW TO WATCH OFFLINE*/
+.main-section .section2-container {
+  border-top: 8px solid #222;
+  background-color: black;
+  display: flex;
+  padding: 0px 80px;
+  padding-bottom: 90px;
+}
+.main-section .section2-container .left-column img {
+  width: 100%;
+}
+.main-section .section2-container .left-column .box {
+  border: 2px solid rgba(255, 255, 255, 0.25);
+  background-color: black;
+  border-radius: 10px;
+  width: 60%;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+  margin-top: -22%;
+}
+.main-section .section2-container .left-column .box .boxshot {
+  width: 15%;
+}
+.main-section .section2-container .left-column .box p {
+  margin-left: 5%;
+  margin-top: 3%;
+}
+.main-section .section2-container .left-column .box p a {
+  text-decoration: none;
+}
+.main-section .section2-container .left-column .box .download-gif {
+  width: 3em;
+  height: 3em;
+  position: absolute;
+  right: 0;
+}
+.main-section .section2-container .right-column {
+  padding-top: 13%;
+  padding-right: 2%;
+  width: 50%;
+}
+.main-section .section2-container .right-column h1 {
+  color: white;
+}
+.main-section .section2-container .right-column h3 {
+  color: white;
+  font-size: 1.4rem;
+  font-weight: normal;
+  margin-top: 5%;
+}
+/* 3 WATCH EVERY WHERE*/
+.main-section .section-container .right-column .video-2 {
+  margin-left: 19%;
+  margin-top: 8%;
+  width: 61%;
+}
+/* 4 CREATE PROFILE FOR KIDS*/
+.main-section .section2-container .left-column img {
+  width: 100%;
+}
+
 /* FEATURES SECTION ENDS */
 
 .section {
@@ -210,7 +214,6 @@
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  /* padding: 1.5rem 0; */
 }
 .tabs__tab-item {
   display: flex;
@@ -218,28 +221,81 @@
   justify-content: start;
   align-items: center;
   padding: 1rem 0 0.7rem;
-  /* border-bottom: solid var(--primary-red); */
+  color: var(--primary-gray);
+  fill: #767676;
+  cursor: pointer;
+  transition: all 0.5s;
 }
-.tabs__tab-image-container {
-  margin: 0;
-  width: 22px;
+.tabs__tab-item:hover {
+  color: white;
 }
-.tabs__tab-image-container--devices {
-  width: 53px;
+
+.tabs__tab-item--active {
+  border-bottom: solid var(--primary-red);
+  color: #fff;
+  transition: all 0.1s;
 }
-.tabs__tab-image {
-  width: 100%;
+
+.tab__icon {
+  width: 4rem;
+  height: 4rem;
+  background-color: #767676;
+  transform: scale(0.5);
+  margin: -0.8rem 0;
+}
+.tab__icon:hover {
+  background-color: #fff;
+}
+.tab__icon--active {
+  background-color: #fff;
+}
+
+.tab__icon--hover {
+  background-color: #fff;
+  transition: all 0.5s;
+}
+.tab__icon--devices {
+  mask: url("../images/tab-section/tab-devices-icon.svg") center no-repeat;
+  width: 10rem;
+  transform: scale(0.4);
+
+  -webkit-mask: url("../images/tab-section/tab-devices-icon.svg") center
+    no-repeat;
+}
+.tab__icon--door {
+  mask: url("../images/tab-section/tab-no-commitment-icon.svg") center no-repeat;
+  -webkit-mask: url("../images/tab-section/tab-no-commitment-icon.svg") center
+    no-repeat;
+}
+.tab__icon--price {
+  mask: url("../images/tab-section/tab-prices-icon.svg") center no-repeat;
+  -webkit-mask: url("../images/tab-section/tab-prices-icon.svg") center
+    no-repeat;
 }
 .tabs__tab-title {
   margin-top: 0.5rem;
   font-size: 0.8em;
-  color: var(--primary-gray);
   font-weight: 500;
 }
+
 .tab-content {
   width: min(1250px, 90%);
   margin: 0 auto;
 }
+
+.tab-1-content,
+.tab-2-content,
+.tab-3-content {
+  display: none;
+  opacity: 0;
+}
+
+.show {
+  display: block !important;
+  opacity: 1 !important;
+  transition: all 1s;
+}
+
 .tab-content__button {
   padding: 1rem;
   border-radius: 2px;

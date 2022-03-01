@@ -71,36 +71,19 @@
     <section class="tabs">
       <div class="tabs__header">
         <div class="tabs__header-container">
-          <div id="tab-1" class="tabs__tab-item">
-            <figure class="tabs__tab-image-container">
-              <img
-                class="tabs__tab-image"
-                src="./images/tab-section/tab-no-commitment-icon.svg"
-                alt=""
-              />
-            </figure>
+          <div id="tab-1" class="tabs__tab-item tabs__tab-item--active">
+            <div
+              id="icon-tab-1"
+              class="tab__icon tab__icon--door tab__icon--active"
+            ></div>
             <p class="tabs__tab-title">Cancela cuando quieras</p>
           </div>
           <div id="tab-2" class="tabs__tab-item">
-            <figure
-              class="tabs__tab-image-container tabs__tab-image-container--devices"
-            >
-              <img
-                class="tabs__tab-image"
-                src="./images/tab-section/tab-devices-icon.svg"
-                alt=""
-              />
-            </figure>
+            <div id="icon-tab-2" class="tab__icon tab__icon--devices"></div>
             <p class="tabs__tab-title">Mira donde sea</p>
           </div>
           <div id="tab-3" class="tabs__tab-item">
-            <figure class="tabs__tab-image-container">
-              <img
-                class="tabs__tab-image"
-                src="./images/tab-section/tab-prices-icon.svg"
-                alt=""
-              />
-            </figure>
+            <div id="icon-tab-3" class="tab__icon tab__icon--price"></div>
             <p class="tabs__tab-title">Escoge tu precio</p>
           </div>
         </div>
@@ -109,7 +92,7 @@
       <div class="tab-content">
         <div class="tab-content__container">
           <!-- Tab Content 1 -->
-          <div id="tab-1-content" class="tab-content__item-show">
+          <div id="tab-1-content" class="tab-1-content tab-content__item show">
             <div class="tab-1-content__inner">
               <div class="tab-content__inner">
                 <p class="tab-1-content__description">
@@ -131,7 +114,7 @@
           </div>
 
           <!-- Tab Content 2 -->
-          <div id="tab-2-content" class="tab-content-item">
+          <div id="tab-2-content" class="tab-2-content tab-content__item">
             <div class="tab-2-content-top tab-content__inner">
               <p class="text-lg">
                 Mira películas y series en cualquier momento, donde sea -
@@ -181,7 +164,7 @@
           </div>
 
           <!-- Tab Content 3 -->
-          <div id="tab-3-content" class="tab-content-item">
+          <div id="tab-3-content" class="tab-3-content tab-content__item">
             <div class="tab-content__inner">
               <p class="text-lg">Escoge un plan y mira todo en Netflix.</p>
               <a class="tab-content__button" href="#" class="btn btn-lg"
@@ -420,11 +403,12 @@
       <p>Netflix Perú</p>
     </footer>
 
+    <script src="./js/script.js" type="module"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-    <script src="js/alerts.js"></script>
+    <script src="./js/alerts.js"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/chart.js@3.7.1/dist/chart.min.js"></script>
-    <script src="js/chart.js"></script>
+    <script src="./js/chart.js"></script>
 
     <noscript>You need to enable JavaScript to view the full site.</noscript>
   </body>
