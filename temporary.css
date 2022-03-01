@@ -27,10 +27,6 @@
   scroll-behavior: smooth;
 }
 
-* {
-  box-sizing: border-box;
-}
-
 .body {
   font-family: "Roboto", sans-serif;
   background-color: var(--background-color);
@@ -64,7 +60,7 @@
 
 .header-nav__logo {
   height: 100%;
-  width: 100%;
+  height: 100%;
 }
 
 .main {
@@ -147,19 +143,15 @@
   margin: 0 auto;
 }
 
+.tab-content__inner {
+  padding: 9rem 0;
+}
+
 .tab-1-content,
 .tab-2-content,
 .tab-3-content {
   display: none;
   opacity: 0;
-}
-
-.tab-content__inner {
-  padding: 4rem 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 1rem;
 }
 
 .show {
