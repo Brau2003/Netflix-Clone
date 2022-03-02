@@ -1,4 +1,9 @@
 "use strict";
+const mainSubtitle = document.querySelector(".main__subtitle");
+
+const capitalizeDepartamento = (departamento) => {
+  return departamento.charAt(0).toUpperCase() + departamento.slice(1);
+};
 
 Swal.fire({
   title: "¡Bienvenid@ a Netflix!",
@@ -33,4 +38,11 @@ Swal.fire({
     tumbes: "Tumbes",
     ucayali: "Ucayali",
   },
+}).then((result) => {
+  if (!result.value) {
+    mainSubtitle.textContent = "Disfruta donde quieras. Cancela cuando quieras.";
+  }
+  if (result.value) {
+    mainSubtitle.textContent = `Disfruta desde ${capitalizeDepartamento(result.value)}. Cancela cuando quieras.`;
+  }
 });
