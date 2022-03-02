@@ -445,6 +445,15 @@
       <button class="preferences__button preferences__button-style">
         <span>Ver más</span>
       </button>
+      <button onclick="myFunction()">Métricas 2022</button>
+
+      <p id="demo"></p>
+
+      <script>
+        function myFunction() {
+          document.getElementById("demo").innerHTML = "Proximamemnte...";
+        }
+      </script>
     </section>
 
     <section class="email-address-container">
@@ -509,9 +518,24 @@
       </ul>
       <select name="" id="">
         <option value="">Español</option>
-        <option value="">English</option>
-      </select>
+        <option value="">English</option></select
+      ><br />
       <p>Netflix Perú</p>
+      <br />
+      <details ontoggle="Function()">
+        <summary>Copyright 2022.</summary>
+        <br />
+        <p>- Por Netflix, Inc. Todos los derechos reservados.</p>
+        <br />
+        <p>Todo el contenido y gráficos del sitio son propiedad de la compañía Netflix. California, Estados Unidos</p>
+      </details>
+      <br /><br />
+
+      <script>
+        function Function() {
+          alert("Gracias por visitar Netflix Perú");
+        }
+      </script>
     </footer>
 
     <script src="./js/script.js" type="module"></script>
