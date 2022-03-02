@@ -4,9 +4,7 @@ const documentReady = () => {
   const tabContentItems = document.querySelectorAll(".tab-content__item");
   const tabHeaderIcons = document.querySelectorAll(".tab__icon");
   const movieTypes = document.querySelectorAll(".splide__movie-info");
-  const movieContainer = document.querySelectorAll(
-    ".splide__movie-image-container"
-  );
+  const movieContainer = document.querySelectorAll(".splide__movie-image-container");
 
   function removeHeaderTabActive() {
     tabHeaderItems.forEach((item) => {

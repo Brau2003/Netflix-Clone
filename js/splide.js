@@ -2,18 +2,21 @@ const splide = new Splide(".splide", {
   type: "loop",
   drag: "free",
   focus: "center",
-  perPage: 4,
+  perPage: 5,
   breakpoints: {
-    830: {
+    920: {
+      perPage: 4,
+    },
+    800: {
       perPage: 3,
     },
-    480: {
+    570: {
       perPage: 2,
     },
   },
   pauseOnHover: true,
   autoScroll: {
-    speed: 0.1,
+    speed: 0.12,
   },
 });
 
