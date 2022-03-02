@@ -2,7 +2,9 @@
 const mainSubtitle = document.querySelector(".main__subtitle");
 
 const capitalizeDepartamento = (departamento) => {
-  return departamento.charAt(0).toUpperCase() + departamento.slice(1);
+  const departamentoCapitalized = departamento.charAt(0).toUpperCase() + departamento.slice(1).split(/(?=[A-Z])/);
+  const departamentoSeparated = departamentoCapitalized.split(",").join(" ");
+  return departamentoSeparated;
 };
 
 Swal.fire({
@@ -43,6 +45,7 @@ Swal.fire({
     mainSubtitle.textContent = "Disfruta donde quieras. Cancela cuando quieras.";
   }
   if (result.value) {
+    console.log(result.value);
     mainSubtitle.textContent = `Disfruta desde ${capitalizeDepartamento(result.value)}. Cancela cuando quieras.`;
   }
 });
