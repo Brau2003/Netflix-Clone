@@ -3,8 +3,7 @@ const documentReady = () => {
   const tabHeaderItems = document.querySelectorAll(".tabs__tab-item");
   const tabContentItems = document.querySelectorAll(".tab-content__item");
   const tabHeaderIcons = document.querySelectorAll(".tab__icon");
-  const movieTypes = document.querySelectorAll(".splide__movie-info");
-  const movieContainer = document.querySelectorAll(".splide__movie-image-container");
+  const metricasNextYearbtn = document.getElementById("metricasNextYearButton");
 
   function removeHeaderTabActive() {
     tabHeaderItems.forEach((item) => {
@@ -51,12 +50,12 @@ const documentReady = () => {
     item.addEventListener("mouseenter", enterTabItem);
     item.addEventListener("mouseleave", leaveTabItem);
   });
-  movieContainer.forEach((movie) => {
-    movie.addEventListener("mouseenter", () => {});
-    movie.addEventListener("mouseleave", () => {
-      console.log("unhovered");
-    });
-  });
+
+  const displayProximamente = () => {
+    document.getElementById("demo").innerHTML = "Próximamente...";
+  };
+
+  metricasNextYearbtn.addEventListener("click", displayProximamente);
 };
 
 document.addEventListener("DOMContentLoaded", documentReady);
