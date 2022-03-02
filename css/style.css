@@ -1,0 +1,753 @@
+:root {
+  --text-color: #fff;
+  --background-color: black;
+  --button-color: #e30813;
+  --primary-red: #e30813;
+  --primary-gray: #767676;
+  --hero-section-gradient-bg: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.8) 0,
+    rgba(0, 0, 0, 0) 60%,
+    rgba(0, 0, 0, 0.8) 100%
+  );
+  --separators-color: #222222;
+  --tab-section-bg: #1b1b1b;
+  --tab-section-table-gray: #262626;
+  --faq-section-bg: #303030;
+  --gradient-slider-content: linear-gradient(0deg, #000000 -40.85%, rgba(0, 0, 0, 0) 100%);
+  --footer-link-color: #757575;
+  --hero-font-size: 3.75em;
+  --features-title-font-size: 3.125em;
+  --features-paragraph-font-size: 1.5em;
+  --tab-subtitle-font-size: 1.25em;
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+}
+
+.body {
+  font-family: "Roboto", sans-serif;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  text-align: center;
+}
+
+.header {
+  top: 0;
+  left: 0;
+  width: 100%;
+  transition: all 0.5s;
+}
+
+.header-nav {
+  padding: 0.5rem 0;
+  transition: all 0.5s;
+}
+
+.header-nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2rem;
+}
+
+.header-nav__logo-container {
+  display: flex;
+  height: 4rem;
+}
+
+.header-nav__logo {
+  height: 100%;
+  width: 100%;
+}
+
+.hader-nav__button {
+  padding-left: 1.375rem;
+  padding-right: 1.375rem;
+  line-height: 1.3em;
+  padding: 0.5rem 1.375rem;
+  background: rgba(0, 0, 0, 0.4);
+  border: 1px solid #aaa;
+  color: #fff;
+  font-size: 0.875rem;
+  text-indent: 0;
+}
+
+.header-nav__signin {
+  margin-top: 0;
+  background-color: #e50914;
+  line-height: normal;
+  padding: 7px 17px;
+  font-weight: 400;
+  font-size: 1rem;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.header-nav__signin:hover {
+  border: 0.1rem solid var(--backgroud-color);
+  background-color: #fff;
+  color: #000000;
+}
+
+.main {
+  border-bottom: 8px solid #222;
+  background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/ed0b5df9-ba9d-4534-bd09-57993daeda56/7cfa3334-407a-4866-8411-8c0c69efed1a/PE-es-20220214-popsignuptwoweeks-perspective_alpha_website_small.jpg);
+}
+
+.main__title {
+  font-size: 3.125rem;
+  margin: 0 auto;
+  line-height: 1.1;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+}
+
+.main__subtitle {
+  font-size: 1.625rem;
+  margin: 1rem auto;
+  font-weight: 400;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+}
+
+.main__question {
+  padding: 0 10%;
+  margin: 0 auto;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+}
+
+.email__box {
+  box-sizing: border-box;
+  height: 48px;
+  padding: 10px 10px 0;
+  width: 100%;
+  box-shadow: none;
+  font-size: 16px;
+  border: solid 1px #8c8c8c;
+  border-radius: 2px;
+  display: block;
+  color: #000000;
+  line-height: normal;
+  margin: 0;
+  list-style: none;
+  cursor: pointer;
+  border: 0;
+}
+
+.main__button {
+  font-size: 1rem;
+  min-height: 40px;
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0.25em auto;
+  padding: 0.1em;
+  line-height: initial;
+  width: auto;
+  position: relative;
+  min-width: 74px;
+  color: #fff;
+  background-color: #e50914;
+  background-image: linear-gradient(to bottom, #e50914, #db0510);
+  box-shadow: 0 1px 0 rgb(0 0 0 / 45%);
+}
+
+/* TABS SECTION */
+
+.tabs__header-container {
+  width: min(1250px, 90%);
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.tabs__tab-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  padding: 1rem 0 0.7rem;
+  color: var(--primary-gray);
+  fill: #767676;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.tabs__tab-item:hover {
+  color: white;
+}
+
+.tabs__tab-item--active {
+  border-bottom: solid var(--primary-red);
+  color: #fff;
+  transition: all 0.1s;
+}
+
+.tab__icon {
+  width: 4rem;
+  height: 4rem;
+  background-color: #767676;
+  transform: scale(0.5);
+  margin: -0.8rem 0;
+}
+
+.tab__icon:hover {
+  background-color: #fff;
+}
+
+.tab__icon--active {
+  background-color: #fff;
+}
+
+.tab__icon--hover {
+  background-color: #fff;
+  transition: all 0.5s;
+}
+
+.tab__icon--devices {
+  mask: url("../images/tab-section/tab-devices-icon.svg") center no-repeat;
+  width: 10rem;
+  transform: scale(0.4);
+
+  -webkit-mask: url("../images/tab-section/tab-devices-icon.svg") center no-repeat;
+}
+
+.tab__icon--door {
+  mask: url("../images/tab-section/tab-no-commitment-icon.svg") center no-repeat;
+  -webkit-mask: url("../images/tab-section/tab-no-commitment-icon.svg") center no-repeat;
+}
+
+.tab__icon--price {
+  mask: url("../images/tab-section/tab-prices-icon.svg") center no-repeat;
+  -webkit-mask: url("../images/tab-section/tab-prices-icon.svg") center no-repeat;
+}
+
+.tabs__tab-title {
+  margin-top: 0.5rem;
+  font-size: 0.8em;
+  font-weight: 500;
+}
+
+.tab-content {
+  width: min(1250px, 90%);
+  margin: 0 auto;
+}
+
+.tab-1-content,
+.tab-2-content,
+.tab-3-content {
+  display: none;
+  opacity: 0;
+}
+
+.show {
+  display: block !important;
+  opacity: 1 !important;
+  transition: all 1s;
+}
+
+.tab-content__inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  padding-bottom: 4rem;
+}
+
+.tab-content__inner-cta {
+  padding: 4rem 0;
+  width: min(90%, 800px);
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  gap: 1.3rem;
+  margin: 0 auto;
+}
+
+.tab-content__inner-cta--cancel {
+  padding: 4rem 0 1rem;
+}
+
+.tab-content__description {
+  font-size: 1.2em;
+  font-weight: 400;
+  line-height: 1.5rem;
+}
+
+.tab-content__description-subtitle {
+  font-size: 1.3em;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+
+.tab-content__image-container {
+  width: min(90%, 400px);
+}
+
+.tab-content__image {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.tab-content__button {
+  padding: 1rem;
+  border-radius: 2px;
+  font-size: 0.9em;
+  font-weight: bold;
+  background-color: var(--primary-red);
+  font-weight: 5 00;
+  width: fit-content;
+  justify-self: center;
+  text-transform: uppercase;
+  transition: all 0.5s;
+}
+
+.tab-content__button:hover {
+  border: 0.1rem solid var(--backgroud-color);
+  font-weight: bold;
+  background-color: #fff;
+  color: #000000;
+}
+
+.tab-2-content-bottom {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding-bottom: 4rem;
+}
+
+.tab-content__item {
+  padding-bottom: 4rem;
+}
+
+.table {
+  width: min(90%, 700px);
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin: 0 auto;
+}
+
+.table thead th {
+  text-transform: uppercase;
+  padding: 0.8rem;
+}
+
+.table tbody {
+  display: table-row-group;
+  vertical-align: middle;
+  border-color: inherit;
+}
+
+.table tbody tr td {
+  color: #999;
+  padding: 0.8rem 1.2rem;
+  text-align: center;
+}
+
+.table tbody tr td:first-child {
+  text-align: left;
+}
+
+.table tbody tr:nth-child(odd) {
+  background: #222;
+}
+
+/* LASTEST RELEASES SECTION - SPLIDE JS STYLES */
+.lastest-releases-title {
+  font-size: 2em;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+
+.splide__arrow--prev {
+  background: none;
+  background-image: url("../images/lastest-releases-section/left.svg");
+  background-repeat: no-repeat;
+  position: center;
+}
+.splide__arrow--next {
+  background: none;
+  background-image: url("../images/lastest-releases-section/right.svg");
+  background-repeat: no-repeat;
+  position: center;
+}
+.splide__pagination {
+  visibility: hidden;
+}
+
+.splide__movie-image-container {
+  width: 200px;
+  height: 400px;
+  position: relative;
+  cursor: pointer;
+}
+.splide__movie-image-gradient {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(0deg, #000000 -10.85%, rgba(0, 0, 0, 0) 100%);
+  transition: all 0.5s;
+}
+.splide__movie-image-gradient:hover {
+  opacity: 0.7;
+}
+.splide__movie-image {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.splide__movie-details {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 3rem;
+  z-index: 3;
+}
+.splide__movie-name {
+  text-align: center;
+  font-size: 1.2em;
+  font-weight: 500;
+}
+.splide__movie-info {
+  font-size: 0.8em;
+}
+.splide__movie-button {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 0.6rem;
+  border-radius: 2px;
+  background-color: white;
+  color: black;
+  gap: 0.5rem;
+  font-size: 0.8em;
+}
+.splide__movie-button-icon {
+  width: 10px;
+}
+
+/* FEAUTEURES SECTION STARTS */
+/* 1 ENJOY ON YOUR TV */
+.section-features .section-container {
+  border-top: 8px solid #222;
+  background-color: black;
+  display: flex;
+  padding: 0px 80px;
+  padding-bottom: 90px;
+}
+
+.section-features .section-container .left-column {
+  padding-top: 13%;
+  padding-right: 2%;
+}
+
+.features-tittle {
+  color: white;
+  font-size: 3.33rem;
+  font-weight: 600;
+}
+
+.section-features .section-container .left-column h3 {
+  color: white;
+  font-size: 1.4rem;
+  font-weight: normal;
+  margin-top: 5%;
+}
+
+.section-features .section-container .right-column {
+  overflow: hidden;
+  position: relative;
+  width: 80%;
+  height: 500px;
+}
+
+.section-features .section-container .right-column img {
+  position: absolute;
+  width: 100%;
+}
+
+.section-features .section-container .right-column .video-1 {
+  margin-left: 13%;
+  margin-top: 16%;
+  width: 73%;
+}
+
+/*2 DOWNLOAD YOU SHOW TO WATCH OFFLINE*/
+.section-features .section2-container {
+  border-top: 8px solid #222;
+  background-color: black;
+  display: flex;
+  padding: 0px 80px;
+  padding-bottom: 90px;
+}
+
+.section-features .section2-container .left-column img {
+  width: 100%;
+}
+
+.section-features .section2-container .left-column .box {
+  border: 2px solid rgba(255, 255, 255, 0.25);
+  background-color: black;
+  border-radius: 10px;
+  width: 60%;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+  margin-top: -22%;
+}
+
+.section-features .section2-container .left-column .box .boxshot {
+  width: 15%;
+}
+
+.section-features .section2-container .left-column .box p {
+  margin-left: 5%;
+  margin-top: 3%;
+}
+
+.section-features .section2-container .left-column .box p a {
+  text-decoration: none;
+}
+
+.section-features .section2-container .left-column .box .download-gif {
+  width: 3em;
+  height: 3em;
+  position: absolute;
+  right: 0;
+}
+
+.section-features .section2-container .right-column {
+  padding-top: 13%;
+  padding-right: 2%;
+  width: 50%;
+}
+
+.section-features .section2-container .right-column h1 {
+  color: white;
+}
+
+.section-features .section2-container .right-column h3 {
+  color: white;
+  font-size: 1.4rem;
+  font-weight: normal;
+  margin-top: 5%;
+}
+
+/* 3 WATCH EVERY WHERE*/
+.section-features .section-container .right-column .video-2 {
+  margin-left: 19%;
+  margin-top: 8%;
+  width: 61%;
+}
+
+/* 4 CREATE PROFILE FOR KIDS*/
+.section-features .section2-container .left-column img {
+  width: 100%;
+}
+
+/* FEATURES SECTION ENDS */
+
+/* ENAIL */
+.email-address-container {
+  z-index: 2;
+  position: relative;
+  text-align: center;
+  width: 100%;
+  padding-top: -4rem;
+  padding-bottom: 4%;
+  background-color: black;
+}
+.email__tittle {
+  font-size: 1.3rem;
+  padding-bottom: 8px;
+}
+
+.email-address-container input {
+  width: 35%;
+  padding: 22px;
+  border: none;
+  margin-top: 0.5%;
+  outline: none;
+  font-size: 1.3rem;
+}
+.email-address-container button {
+  padding: 22px;
+  border: none;
+  background-color: #e50914;
+  color: white;
+  margin-left: -0.3%;
+  font-weight: bold;
+  font-size: 1.3rem;
+  cursor: wait;
+}
+
+.section {
+  border-bottom: 8px solid #222;
+}
+
+.section-descarga__container {
+  display: flex;
+  border: 2px solid rgba(255, 255, 255, 0.25);
+  border-radius: 0.75em;
+}
+
+.footer-ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  list-style: none;
+}
+
+.footer-ul-a {
+  text-decoration: none;
+}
+
+.splide__arrow--prev {
+  background: none;
+  background-image: url("../images/lastest-releases-section/left.svg");
+  background-repeat: no-repeat;
+  position: center;
+}
+
+.splide__arrow--next {
+  background: none;
+  background-image: url("../images/lastest-releases-section/right.svg");
+  background-repeat: no-repeat;
+  position: center;
+}
+
+.splide__pagination {
+  visibility: hidden;
+}
+
+@media (min-width: 854px) {
+  .footer-ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  .tab-2-content-bottom {
+    flex-direction: row;
+  }
+
+  .tab-content__inner-cta {
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 3rem;
+  }
+
+  .tab-content__button {
+    width: 100%;
+  }
+}
+
+.preferences {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 800px;
+}
+
+.barChart {
+  margin-top: 50px;
+}
+
+.videoNetflix {
+  margin-bottom: 50px;
+}
+
+@media (max-width: 943px) {
+  /*ENJOY ON YOUR TV*/
+  .section-features .section-container {
+    display: block;
+  }
+
+  .section-features .section-container .left-column {
+    width: 100%;
+    text-align: center;
+  }
+
+  .section-features .section-container .right-column {
+    width: 100%;
+  }
+
+  /*DOWNLOAD YOU SHOW TO WATCH OFFLINE*/
+  .section-features .section2-container {
+    display: block;
+  }
+
+  .section-features .section2-container .left-column {
+    width: 100%;
+  }
+
+  .section-features .section2-container .right-column {
+    width: 100%;
+    text-align: center;
+  }
+
+  .features-tittle {
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 700;
+  }
+}
+
+@media (max-width: 774px) {
+  /* ENJOY ON YOUR TV */
+  .section-features .section-container {
+    padding-bottom: 0px;
+  }
+
+  .features-tittle {
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 700;
+  }
+}
+
+@media (max-width: 500px) {
+  /*ENJOY ON YOUR TV*/
+  .section-features .section-container .right-column {
+    height: 270px;
+  }
+
+  /* DOWNLOAD YOUR SHOW TO WATCH OFFLINE */
+  .section-features .section2-container .left-column .box {
+    width: 100%;
+  }
+
+  .features-tittle {
+    color: white;
+    font-size: 2rem;
+    font-weight: 700;
+  }
+}
