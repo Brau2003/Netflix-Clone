@@ -433,9 +433,19 @@
     </section>
 
     <section class="preferences">
-      <h2>Estadísticas de nuestras películas y series.</h2>
-      <p>Tenemos una gran variedad de películas y series.</p>
-      <canvas id="myChart" class="barChart"></canvas>
+      <h2 class="preferences__title">Nuestras recientes estadísticas</h2>
+      <p class="preferences__text">Tenemos una gran variedad de películas y series para ti</p>
+      <canvas id="myChart" class="preferences_grafico-1"></canvas><br />
+      <p class="preferences__source">Fuente: Encuesta realizada durante el último trimestre del año 2021</p>
+      <br />
+      <p class="preferences__interpretation">
+        ¿Sabías que el género más visto en los últimos meses fue drama? <br />
+        Nuestras métricas nos indican las preferencias más recientes por género. Prometemos actualizar nuestra cartelera
+        con películas y series diversas para todas las edades y gustos.
+      </p>
+      <button class="preferences__button preferences__button-style">
+        <span>Ver más</span>
+      </button>
     </section>
 
     <section class="email-address-container">
@@ -514,6 +524,9 @@
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="./js/alerts.js"></script>
 
+    <!-- Include the Borderless theme -->
+    <link rel="stylesheet" href="@sweetalert2/theme-borderless/borderless.css" />
+    <script src="sweetalert2/dist/sweetalert2.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js@3.7.1/dist/chart.min.js"></script>
     <script src="./js/chart.js"></script>
 

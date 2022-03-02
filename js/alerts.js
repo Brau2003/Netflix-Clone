@@ -1,8 +1,8 @@
 "use strict";
 
 Swal.fire({
-  title: "¡Bienvenido!",
-  text: "Selecciona a tu departamento",
+  title: "¡Bienvenido a Netflix!",
+  text: "¿De que parte del Perú nos visitas?",
   icon: "question",
   input: "select",
   inputPlaceholder: "Departamento",
