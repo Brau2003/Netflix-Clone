@@ -34,37 +34,61 @@
           <a class="header-nav__logo-container" href="#">
             <img
               class="header-nav__logo"
-              src="https://assets.stickpng.com/thumbs/580b57fcd9996e24bc43c529.png"
+              src="https://1000marcas.net/wp-content/uploads/2020/01/Logo-Netflix.png"
               alt="Logo Netflix"
               class="header-nav__logo"
             />
           </a>
-          <select name="" id="" class="hader-nav__button">
-            <option value="">Español</option>
-            <option value="">English</option>
-          </select>
-          <a href="" class="header-nav__signin">Iniciar sesión</a>
+          <div class="header__select-ancor-container">
+            <select class="header-select" name="" id="">
+              <option value="Español">Español</option>
+              <option value="English">English</option>
+            </select>
+            <a class="header-ancor" href="">Iniciar sesión</a>
+          </div>
         </div>
       </nav>
     </header>
 
     <main class="main">
-      <h1 class="main__title">Películas y series ilimitadas y mucho más.</h1>
-      <p class="main__subtitle">Disfruta donde quieras. Cancela cuando quieras.</p>
-      <p class="main__question">
-        ¿Quieres ver Netflix ya? Ingresa tu email para crear una cuenta o reiniciar tu membresía de Netflix.
-      </p>
-      <input
-        type="email"
-        placeholder="Email"
-        autocomplete="email"
-        id="id-email"
-        class="email__box"
-        maxlength="50"
-        minlength="5"
-      />
-      <div>
-        <button class="main__button" type="submit">Comenzar</button>
+      <div class="main-container-container">
+        <div>
+          <div class="main-img-container">
+            <img
+              class="main-img"
+              src="https://assets.nflxext.com/ffe/siteui/vlv3/8607d312-c4d0-4ce2-955d-50d728ae845f/d722dda9-61a3-47b1-b2cd-6a01bc903cb6/PE-es-20220226-popsignuptwoweeks-perspective_alpha_website_small.jpg"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="main-container">
+          <h1 class="main-h1">Películas y series ilimitadas y mucho más.</h1>
+          <h3 class="main-p1" id="mainSubtitle">Disfruta donde quieras. Cancela cuando quieras.</h3>
+          <p class="main-p2">
+            ¿Quieres ver Netflix ya? Ingresa tu email para crear una cuenta o reiniciar tu membresía de Netflix.
+          </p>
+          <div class="main-correo__container">
+            <div class="main-input__container">
+              <input
+                class="main-input"
+                type="email"
+                placeholder="Email"
+                autocomplete="email"
+                id="id-email"
+                maxlength="50"
+                minlength="5"
+              />
+            </div>
+            <div class="main-buttom__container">
+              <button class="main-buttom" type="submit">
+                <span class="main-buttom-text"> Comenzar </span>
+                <span class="main-buttom-i">
+                  <i class="fas fa-angle-right"></i>
+                </span>
+              </button>
+            </div>
+          </div>
+        </div>
       </div>
     </main>
 
@@ -432,9 +456,22 @@
     </section>
 
     <section class="preferences">
-      <h2>Estadísticas de nuestras películas y series.</h2>
-      <p>Tenemos una gran variedad de películas y series.</p>
-      <canvas id="myChart" class="barChart"></canvas>
+      <h2 class="preferences__title">Nuestras recientes estadísticas</h2>
+      <p class="preferences__text">Tenemos una gran variedad de películas y series para ti</p>
+      <canvas id="myChart" class="preferences_grafico-1"></canvas><br />
+      <p class="preferences__source">Fuente: Encuesta realizada durante el último trimestre del año 2021</p>
+      <br />
+      <p class="preferences__interpretation">
+        ¿Sabías que el género más visto en los últimos meses fue drama? <br />
+        Nuestras métricas nos indican las preferencias más recientes por género. Siempre actualizamos nuestra cartelera
+        con películas y series diversas para todas las edades y gustos.
+      </p>
+      <button class="preferences__button preferences__button-style">
+        <span>Ver más</span>
+      </button>
+      <button id="metricasNextYearButton" class="preferences__metricas-next-year">Métricas 2022</button>
+
+      <p id="demo"></p>
     </section>
 
     <section class="email-address-container">
@@ -499,9 +536,24 @@
       </ul>
       <select name="" id="">
         <option value="">Español</option>
-        <option value="">English</option>
-      </select>
+        <option value="">English</option></select
+      ><br />
       <p>Netflix Perú</p>
+      <br />
+      <details ontoggle="Function()">
+        <summary>Copyright 2022.</summary>
+        <br />
+        <p>- Por Netflix, Inc. Todos los derechos reservados.</p>
+        <br />
+        <p>Todo el contenido y gráficos del sitio son propiedad de la compañía Netflix. California, Estados Unidos</p>
+      </details>
+      <br /><br />
+
+      <script>
+        function Function() {
+          alert("Gracias por visitar Netflix Perú");
+        }
+      </script>
     </footer>
 
     <script src="./js/script.js" type="module"></script>
@@ -516,6 +568,7 @@
     <script src="https://cdn.jsdelivr.net/npm/chart.js@3.7.1/dist/chart.min.js"></script>
     <script src="./js/chart.js"></script>
 
-    <noscript>You need to enable JavaScript to view the full site.</noscript>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.7.1/dist/chart.min.js"></script>
+    <script src="./js/chart.js"></script>
   </body>
 </html>

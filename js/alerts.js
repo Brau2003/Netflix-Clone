@@ -1,8 +1,15 @@
 "use strict";
+const mainSubtitle = document.querySelector("#mainSubtitle");
+
+const capitalizeDepartamento = (departamento) => {
+  const departamentoCapitalized = departamento.charAt(0).toUpperCase() + departamento.slice(1).split(/(?=[A-Z])/);
+  const departamentoSeparated = departamentoCapitalized.split(",").join(" ");
+  return departamentoSeparated;
+};
 
 Swal.fire({
-  title: "¡Bienvenido!",
-  text: "Selecciona a tu departamento",
+  title: "¡Bienvenid@ a Netflix!",
+  text: "¿Desde qué parte del Perú nos visitas?",
   icon: "question",
   input: "select",
   inputPlaceholder: "Departamento",
@@ -33,4 +40,11 @@ Swal.fire({
     tumbes: "Tumbes",
     ucayali: "Ucayali",
   },
+}).then((result) => {
+  if (!result.value) {
+    mainSubtitle.textContent = "Disfruta donde quieras. Cancela cuando quieras.";
+  }
+  if (result.value) {
+    mainSubtitle.textContent = `Disfruta desde ${capitalizeDepartamento(result.value)}. Cancela cuando quieras.`;
+  }
 });
