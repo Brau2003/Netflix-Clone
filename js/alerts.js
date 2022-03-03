@@ -1,5 +1,5 @@
 "use strict";
-const mainSubtitle = document.querySelector(".main__subtitle");
+const mainSubtitle = document.querySelector("#mainSubtitle");
 
 const capitalizeDepartamento = (departamento) => {
   const departamentoCapitalized = departamento.charAt(0).toUpperCase() + departamento.slice(1).split(/(?=[A-Z])/);
@@ -45,7 +45,6 @@ Swal.fire({
     mainSubtitle.textContent = "Disfruta donde quieras. Cancela cuando quieras.";
   }
   if (result.value) {
-    console.log(result.value);
     mainSubtitle.textContent = `Disfruta desde ${capitalizeDepartamento(result.value)}. Cancela cuando quieras.`;
   }
 });
