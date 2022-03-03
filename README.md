@@ -14,15 +14,15 @@ Te invito a que lo puedas descargar en tu máquina local, testear y revisar. Pue
 
 ### Vista pantalla completa en laptop
   
-![alt text](https://github.com/vcerpasalas/tienda_online/blob/ec29e219e962101a2694d1337c56df372e2cba00/imgs/pantalla-completa1.png)
+
       
 ### Vista responsive en mobile
   
-![alt text](https://github.com/vcerpasalas/tienda_online/blob/16a1ed2ff4d3447462aa4b9b8761fa1cf458301a/imgs/mobile1.png)
+
   
 ### Módulo
 
-Este proyecto corresponde a la cuarta semana del módulo de Frontend.
+Este proyecto corresponde a la quinta semana del módulo de Frontend.
 
 ```
 En total serán 10 proyectos, que corresponden a 10 retos.
@@ -43,6 +43,7 @@ Javascript:
 HTML
 CSS
 UX/UI
+Github Colaborativo
 
 ```
 Todos los derechos reservados.
@@ -60,8 +61,6 @@ Te pedimos leas los códigos de conducta de GitHub y el presente "README.md" par
 * **Lavarello Vidaurre, Victoria** 
 * **Yaringaño Pizarro, Fabricio** 
 
-Puedes mirar mis otros proyectos...
-
 ## Licencia
 
 Este proyecto contiene una licencia GNU General Public License v3.0e - ver el archivo adjunto en el repositorio para conocer los detalles.
@@ -69,4 +68,4 @@ Este proyecto contiene una licencia GNU General Public License v3.0e - ver el ar
 ## Agradecimientos
 
 * Profesor Elliot Garamendi, por la enseñanza
-* Fundación Es Hoy y CODIGO, por la oportunidad de formarme como desarrolladora web
+* Fundación Es Hoy y CODIGO, por la oportunidad de formarnos en desarrollo web.
