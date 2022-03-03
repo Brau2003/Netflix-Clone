@@ -2,6 +2,7 @@
   --text-color: #fff;
   --background-color: black;
   --button-color: #e30813;
+  --button-hover-color: #f40612;
   --primary-red: #e30813;
   --primary-gray: #767676;
   --hero-section-gradient-bg: linear-gradient(
@@ -92,6 +93,10 @@
   color: var(--text-color);
   border-radius: 3px;
   text-decoration: none;
+  transition: all 0.5s;
+}
+.header-ancor:hover {
+  background-color: var(--button-hover-color);
 }
 
 /* <------------------------------------------------------------------------------------------------------> */
@@ -174,9 +179,6 @@
   padding-left: 0.5rem;
 }
 
-.main-buttom__container {
-}
-
 .main-buttom {
   width: 12.3rem;
   height: 48px;
@@ -185,6 +187,7 @@
   color: var(--text-color);
   width: 7.636rem;
   height: 2.5rem;
+  cursor: pointer;
 }
 
 /* TABS SECTION */
@@ -347,8 +350,7 @@
 .tab-content__button:hover {
   border: 0.1rem solid var(--backgroud-color);
   font-weight: bold;
-  background-color: #fff;
-  color: #000000;
+  background-color: var(--button-hover-color);
 }
 
 .tab-2-content-bottom {
@@ -382,7 +384,7 @@
 
 .table tbody tr td {
   color: #999;
-  padding: 0.8rem 1.2rem;
+  padding: 0.8rem 0.5rem;
   text-align: center;
 }
 
@@ -922,13 +924,26 @@
   .main-buttom {
     height: 100%;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.6rem;
+    transition: all 0.5s;
+  }
+
+  .main-buttom:hover {
+    background-color: var(--button-hover-color);
   }
 
   .main-buttom-text {
     font-size: 1.625rem;
   }
   .main-buttom-i {
-    height: %;
+    height: 100%;
+    padding-top: 0.3rem;
+    transform: scale(1.5);
+    display: flex;
+    align-items: center;
   }
   .main-input__container {
     gap: 2rem;
