@@ -57,8 +57,8 @@ Te pido leas los códigos de conducta de GitHub y el presente "README.md" para p
 * **Cerpa Salas, Valeria** 
 * **Condor Huaman, Braulio** 
 * **Huamán Lazo, Diego** 
-* * **Lavarello Vidaurre, Victoria** 
-* * **Yaringaño Pizarro, Fabricio** 
+* **Lavarello Vidaurre, Victoria** 
+* **Yaringaño Pizarro, Fabricio** 
 
 Puedes mirar mis otros proyectos...
 
