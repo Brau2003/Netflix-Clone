@@ -540,11 +540,17 @@
           <a class="footer-ul-a" href="">Avisos legales</a>
         </li>
       </ul>
-      <select id="mySelect" onchange="myFunction()">
+      <select id="languageSelect" onchange="selectFunction()">
         <option value="Español">Español</option>
         <option value="English">English</option>
       </select>
-      <p id="demo"></p>
+      <p id="event"></p>
+      <script>
+        function selectFunction() {
+          var x = document.getElementById("languageSelect").value;
+          document.getElementById("event").innerHTML = "Seleccionaste: " + x;
+        }
+      </script>
       <br />
       <p>Netflix Perú</p>
       <br />
@@ -556,7 +562,6 @@
         <p>Todo el contenido y gráficos del sitio son propiedad de la compañía Netflix. California, Estados Unidos</p>
       </details>
       <br /><br />
-
       <script>
         function Function() {
           alert("Gracias por visitar Netflix Perú");

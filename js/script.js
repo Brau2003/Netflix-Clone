@@ -71,9 +71,4 @@ const documentReady = () => {
   metricasNextYearbtn.addEventListener("click", displayProximamente);
 };
 
-function myFunction() {
-  var x = document.getElementById("mySelect").value;
-  document.getElementById("demo").innerHTML = "You selected: " + x;
-}
-
 document.addEventListener("DOMContentLoaded", documentReady);
