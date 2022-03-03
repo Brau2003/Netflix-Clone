@@ -40,10 +40,10 @@ Javascript:
 - Splide
 - Chart.js
 
-HTML
-CSS
-UX/UI
-Github Colaborativo
+- HTML
+- CSS
+- UX/UI
+- Github Colaborativo
 
 ```
 Todos los derechos reservados.
