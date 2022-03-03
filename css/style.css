@@ -402,10 +402,14 @@
 }
 
 /* LASTEST RELEASES SECTION - SPLIDE JS STYLES */
+.latest-releases {
+  border-top: 8px solid #222;
+  padding-top: 4rem;
+}
 .lastest-releases-title {
   font-size: 2em;
   font-weight: 600;
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
 }
 .splide__arrow {
   background-color: none;
@@ -482,7 +486,7 @@
   width: 10px;
 }
 
-/* FEAUTEURES SECTION STARTS */
+/* FEATURES SECTION STARTS */
 /* 1 ENJOY ON YOUR TV */
 .section-features .section-container {
   border-top: 8px solid #222;
@@ -685,6 +689,9 @@
 
   .tab-content__button {
     width: 100%;
+  }
+  .lastest-releases-title {
+    font-size: 2.3em;
   }
 }
 
