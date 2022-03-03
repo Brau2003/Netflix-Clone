@@ -472,7 +472,7 @@
         Nuestras métricas nos indican las preferencias más recientes por género. Siempre actualizamos nuestra cartelera
         con películas y series diversas para todas las edades y gustos.
       </p>
-      <button class="preferences__button preferences__button-style">
+      <button class="preferences__button preferences__button-style" id="preferencesBtn">
         <span>Ver más</span>
       </button>
       <button id="metricasNextYearButton" class="preferences__metricas-next-year">Métricas 2022</button>
@@ -570,7 +570,14 @@
     </footer>
 
     <script src="./js/script.js" type="module"></script>
-
+    <script>
+      const myBTn = document.getElementById("preferencesBtn");
+      myBTn.addEventListener("click", function (e) {
+        if (e.ctrlKey) {
+          console.log("CTRL + click se está imprimiendo");
+        }
+      });
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@3.6.12/dist/js/splide.min.js"></script>
     <script src="./js/splide-extension-auto-scroll.min.js"></script>
     <script src="./js/splide.js" type="module"></script>
