@@ -1,4 +1,4 @@
-# Netflix Clone 🛒 - Reto 5
+# Netflix Clone 💻 - Reto 5
 
 El presente proyecto que se realizó de forma colaborativa consta de la clonación de una de las empresas de entretenimiento y plataformas más grandes y conocidas en el mundo entero.
 La web cuenta con un alert de saludo de bienvenida, que fue realizado con Sweetalert 2. Así también consta de un header que te permite dejar tu correo y comenzar tu aventura por Netflix Clone. Las secciones son diversas, con imágenes, svg y videos de tus series preferidas...  Tabs para una mejor experiencia en el sitio y 
