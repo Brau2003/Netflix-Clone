@@ -50,7 +50,7 @@ Todos los derechos reservados.
 
 ## Contribuciones
 
-Te pido leas los códigos de conducta de GitHub y el presente "README.md" para poder utilizar y contribuir con el proyecto. Se recomienda el uso del proyecto únicamente para fines académicos y educativos. Prohibido su uso para fines comerciales.
+Te pedimos leas los códigos de conducta de GitHub y el presente "README.md" para poder utilizar y contribuir con el proyecto. Se recomienda el uso del proyecto únicamente para fines académicos y educativos. Prohibido su uso para fines comerciales.
 
 ## Autores
 
