@@ -846,14 +846,12 @@
 
 /* FAQ */
 .faq {
-        position: relative;
-        color: #ffff;
-      }
-      
-
-
-
-
+  position: relative;
+  color: #ffff;
+}
+.faq_section {
+  padding: 3.1rem 0;
+}
 
 /* MEDIA QUERIES */
 
