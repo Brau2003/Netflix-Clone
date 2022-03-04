@@ -873,6 +873,12 @@
   cursor: pointer;
   margin-bottom: 0.2rem;
 }
+.faq-question {
+        display: flex;
+        justify-content: space-between;
+        padding: 1.5rem;
+        margin: 0;
+      }
 /* MEDIA QUERIES */
 
 @media (max-width: 943px) {
