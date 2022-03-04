@@ -862,6 +862,17 @@
 .faq-title {
   margin-bottom: 5rem;
 }
+.faq-list {
+  width: 65%;
+  margin: auto;
+  list-style: none;
+}
+.faq-list_item {
+  border-bottom: 0.3rem solid #000;
+  background: #333;
+  cursor: pointer;
+  margin-bottom: 0.2rem;
+}
 /* MEDIA QUERIES */
 
 @media (max-width: 943px) {
