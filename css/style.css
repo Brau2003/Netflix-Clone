@@ -856,7 +856,12 @@
   line-height: 1.5;
   margin: 2rem 0;
 }
-
+.faq-title-container {
+  text-align: center;
+}
+.faq-title {
+  margin-bottom: 5rem;
+}
 /* MEDIA QUERIES */
 
 @media (max-width: 943px) {
