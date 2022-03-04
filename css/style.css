@@ -493,7 +493,7 @@
   background-color: black;
   display: flex;
   padding: 0px 80px;
-  padding-bottom: 90px;
+  padding-bottom: 30px;
 }
 
 .section-features .section-container .left-column {
@@ -699,7 +699,7 @@
 
 .preferences {
   margin-top: 100px;
-  margin-bottom: 100px;
+  margin-bottom: 16px;
   margin-left: auto;
   margin-right: auto;
   max-width: 800px;
@@ -845,6 +845,19 @@
 }
 
 /* MEDIA QUERIES */
+
+.footer {
+  background-color: black;
+  border-top: 8px solid #222;
+  padding-top: 4%;
+  
+}
+
+.footer__tittle{
+  color: white;
+  text-align: center;
+  padding-top: -2rem;
+}
 
 @media (max-width: 943px) {
   /*ENJOY ON YOUR TV*/
