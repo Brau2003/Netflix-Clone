@@ -885,7 +885,7 @@
   padding: 1.5rem;
   margin: 0;
 }
-.bi.active.open {
+.bi.active {
   transform: rotate(45);
 }
 .faq-answer.closed {
