@@ -899,7 +899,7 @@
   opacity: 0;
   margin-bottom: 0.5rem;
 }
-.faq-list_item.show {
+.faq_answer.show {
   max-height: 5rem;
   position: relative;
   opacity: 1;
