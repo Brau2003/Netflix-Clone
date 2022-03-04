@@ -852,6 +852,10 @@
 .faq_section {
   padding: 3.1rem 0;
 }
+.faq_div {
+  line-height: 1.5;
+  margin: 2rem 0;
+}
 
 /* MEDIA QUERIES */
 
