@@ -121,7 +121,18 @@
   z-index: -1;
   height: 128%;
   max-width: 200%;
+  z-index: -2;
   /* align-self: center; */
+}
+.main-degradate {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  height: 128%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%);
+  z-index: -1;
 }
 
 .main-container {
@@ -850,10 +861,9 @@
   background-color: black;
   border-top: 8px solid #222;
   padding-top: 4%;
-  
 }
 
-.footer__tittle{
+.footer__tittle {
   color: white;
   text-align: center;
   padding-top: -2rem;
