@@ -888,7 +888,7 @@
 .bi.active {
   transform: rotate(45);
 }
-.faq-answer.closed {
+.faq-answer{
   padding: 0.5rem 1.5rem;
   border: 1px 0 solid #000;
   font-size: 1.2rem;
