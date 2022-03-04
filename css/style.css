@@ -845,7 +845,11 @@
 }
 
 /* FAQ */
-
+.faq {
+        position: relative;
+        color: #ffff;
+      }
+      
 
 
 
