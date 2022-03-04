@@ -845,7 +845,8 @@
 }
 
 /* FAQ */
-.faq , .faq_section{
+.faq,
+.faq_section {
   line-height: 1.5;
   margin: 2rem 0;
 }
@@ -879,11 +880,14 @@
   margin-bottom: 0.2rem;
 }
 .faq-question {
-        display: flex;
-        justify-content: space-between;
-        padding: 1.5rem;
-        margin: 0;
-      }
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem;
+  margin: 0;
+}
+.bi.active::after {
+  transform: rotate(45);
+}
 /* MEDIA QUERIES */
 
 @media (max-width: 943px) {
