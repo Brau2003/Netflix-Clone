@@ -845,6 +845,11 @@
 }
 
 /* FAQ */
+.faq , .faq_section{
+  line-height: 1.5;
+  margin: 2rem 0;
+}
+
 .faq {
   position: relative;
   color: #ffff;
