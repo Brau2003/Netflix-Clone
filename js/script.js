@@ -80,4 +80,23 @@ const documentReady = () => {
   metricasNextYearbtn.addEventListener("click", displayProximamente);
 };
 
+// Animate Button for Buying
+
+var animateButton = function (e) {
+  e.preventDefault;
+  //reset animation
+  e.target.classList.remove("animate");
+
+  e.target.classList.add("animate");
+  setTimeout(function () {
+    e.target.classList.remove("animate");
+  }, 700);
+};
+
+var classname = document.getElementsByClassName("faq__button");
+
+for (var i = 0; i < classname.length; i++) {
+  classname[i].addEventListener("click", animateButton, false);
+}
+
 document.addEventListener("DOMContentLoaded", documentReady);
