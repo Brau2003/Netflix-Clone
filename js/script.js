@@ -80,7 +80,7 @@ const documentReady = () => {
   metricasNextYearbtn.addEventListener("click", displayProximamente);
 };
 
-// Animate Button for Buying
+// Animate Button for FAQ
 
 var animateButton = function (e) {
   e.preventDefault;
