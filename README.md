@@ -14,7 +14,9 @@ El presente proyecto contiene los archivos .hmtl .css y .js , que fueron escrito
 Te invito a que lo puedas descargar en tu máquina local, testear y revisar. Puedes guiarte de estas notas para revisar la página.
 
 ## Vistas del proyecto
-
+     
+[![pantalla-completa0.png](https://i.postimg.cc/pXT8RhFL/pantalla-completa0.png)](https://postimg.cc/kD0Dy5s0)
+    
 [![pantallacompleta1.png](https://i.postimg.cc/ZK1HCxZq/pantallacompleta1.png)](https://postimg.cc/nCGBW7X8)
       
 [![pantalla-completa2.png](https://i.postimg.cc/sxGnN6yt/pantalla-completa2.png)](https://postimg.cc/8fDBFb7H)
