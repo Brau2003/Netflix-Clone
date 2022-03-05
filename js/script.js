@@ -1,5 +1,14 @@
 "use-strict";
 const documentReady = () => {
+  // Start header
+  const headerScroll = () => {
+    const header = document.getElementById("header");
+    header.classList.toggle("header--scroll", window.scrollY > 0);
+  };
+  window.addEventListener("scroll", headerScroll);
+
+  // End header
+
   const tabHeaderItems = document.querySelectorAll(".tabs__tab-item");
   const tabContentItems = document.querySelectorAll(".tab-content__item");
   const tabHeaderIcons = document.querySelectorAll(".tab__icon");

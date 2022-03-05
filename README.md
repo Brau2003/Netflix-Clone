@@ -1,7 +1,7 @@
 # Netflix Clone 💻 - Reto 5
 
 El presente proyecto que se realizó de forma colaborativa consta de la clonación de la web de una de las empresas de entretenimiento y plataformas más grandes y conocidas en el mundo entero.
-La web cuenta con nuevas contribuciones como un alert de saludo de bienvenida personalizado, que fue realizado con Sweetalert 2. Así también consta de un header que te permite dejar tu correo y comenzar tu aventura en Netflix Clone. Las secciones de la web son diversas, con imágenes, svg, videos y animaciones de tus series preferidas...  Tabs para una mejor experiencia en el sitio y por medio de Splide, te presentamos los últimos estrenos de nuestra cartelera. En adición a lo ya mencionado, nuestras recientes métricas son mostradas por medio de un gráfico de Chart.js
+La web cuenta con nuevas contribuciones como un alert de saludo de bienvenida personalizado, que fue realizado con Sweetalert 2. Así también consta de un header que te permite dejar tu correo y comenzar tu aventura en Netflix Clone. Las secciones de la web son diversas, con imágenes, svg, videos y animaciones de tus series preferidas... Tabs para una mejor experiencia en el sitio y por medio de Splide, te presentamos los últimos estrenos de nuestra cartelera. En adición a lo ya mencionado, nuestras recientes métricas son mostradas por medio de un gráfico de Chart.js
 
 Netflix Perú, disfruta donde quieras...
 
@@ -15,13 +15,9 @@ Te invito a que lo puedas descargar en tu máquina local, testear y revisar. Pue
 ## Vistas del proyecto
 
 ### Vista pantalla completa en laptop
-  
 
-      
 ### Vista responsive en mobile
-  
 
-  
 ### Módulo
 
 Este proyecto corresponde a la quinta semana del módulo de Frontend.
@@ -33,6 +29,7 @@ En total serán 10 proyectos, que corresponden a 10 retos.
 ### Temas vistos para el presente reto:
 
 Javascript:
+
 - ¿Qué es el DOM?
 - Selectores
 - Eventos
@@ -57,11 +54,11 @@ Te pedimos leas los códigos de conducta de GitHub y el presente "README.md" par
 
 ## Autores
 
-* **Cerpa Salas, Valeria** 
-* **Condor Huaman, Braulio** 
-* **Huamán Lazo, Diego** 
-* **Lavarello Vidaurre, Victoria** 
-* **Yaringaño Pizarro, Fabricio** 
+- **Cerpa Salas, Valeria**
+- **Condor Huaman, Braulio**
+- **Huamán Lazo, Diego**
+- **Lavarello Vidaurre, Victoria**
+- **Yaringaño Pizarro, Fabricio**
 
 ## Licencia
 
@@ -69,5 +66,5 @@ Este proyecto contiene una licencia GNU General Public License v3.0e - ver el ar
 
 ## Agradecimientos
 
-* Profesor Elliot Garamendi, por la enseñanza
-* Fundación Es Hoy y CODIGO, por la oportunidad de formarnos en desarrollo web.
+- Profesor Elliot Garamendi, por la enseñanza
+- Fundación Es Hoy y CODIGO, por la oportunidad de formarnos en desarrollo web.
