@@ -31,8 +31,7 @@ Te invito a que lo puedas descargar en tu máquina local, testear y revisar. Pue
 [![pantalla-completa4.png](https://i.postimg.cc/8zZhLdgW/pantalla-completa4.png)](https://postimg.cc/DSbJTXZy) 
     
 [![pantalla-completa5.png](https://i.postimg.cc/VvFFT3pZ/pantalla-completa5.png)](https://postimg.cc/YLhgLypQ)
-       
->>>>>>> 052ef3b8c57981ae662d10d440a4f29fc1d79df8
+     
 ### Vista responsive en mobile
 
 ### Módulo
