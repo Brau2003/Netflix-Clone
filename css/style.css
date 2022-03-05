@@ -47,11 +47,15 @@
   left: 0;
   width: 100%;
   transition: all 0.5s;
-  z-index: 1;
+  z-index: 999;
+}
+.header--scroll {
+  background-color: black;
+  position: fixed;
 }
 
 .header-nav {
-  padding-top: 1.25rem;
+  padding: 0.5rem 0;
   transition: all 0.5s;
 }
 
@@ -81,6 +85,10 @@
 .header-select {
   background-color: var(--background-color);
   color: var(--text-color);
+  font-weight: 500;
+  font-size: 1em;
+  padding: 0.5rem 1rem;
+  border: solid 0.5px;
   border-radius: 3px;
 }
 
@@ -94,6 +102,9 @@
   border-radius: 3px;
   text-decoration: none;
   transition: all 0.5s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .header-ancor:hover {
   background-color: var(--button-hover-color);
@@ -102,37 +113,45 @@
 /* <------------------------------------------------------------------------------------------------------> */
 
 .main {
+  margin-top: -4.8rem;
+  overflow-x: hidden;
   border-bottom: 8px solid #222;
-  z-index: 1;
 }
 
 .main-container-container {
   padding: 50px 5%;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: start;
 }
 
 .main-img-container {
-  /* background: linear-gradient(to right top, #05193799, #004d7a99, #00879399, #00bf7299, #a8eb1299); */
-}
-
-.main-img {
+  height: 100%;
+  width: 100%;
   position: absolute;
-  top: 0px;
-  right: 0px;
-  z-index: -1;
-  height: 128%;
-  max-width: 200%;
+  top: 0;
+  left: 0;
+  z-index: -3;
+}
+.main-img {
+  height: 100%;
+  width: 100%;
+  background-image: url("../images/hero-section-bg.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
   z-index: -2;
-  /* align-self: center; */
 }
 .main-degradate {
   position: absolute;
   top: 0px;
   right: 0px;
-  height: 128%;
+  height: 100%;
   width: 100%;
   background: rgba(0, 0, 0, 0.4);
   background-image: linear-gradient(to top, rgba(0, 0, 0, 08) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.6) 100%);
-  z-index: -1;
 }
 
 .main-container {
@@ -944,6 +963,7 @@
 
   .main-container-container {
     padding: 4.375rem 2.813rem;
+    height: 128vh;
   }
 
   .main-correo__container {
