@@ -14,6 +14,10 @@ Te invito a que lo puedas descargar en tu máquina local, testear y revisar. Pue
 
 ## Vistas del proyecto
 
+[![SCAN-FINAL-1.png](https://i.postimg.cc/zBVHC4FY/SCAN-FINAL-1.png)](https://postimg.cc/njfLZRW3)
+
+
+
 ### Vista pantalla completa en laptop
   
 
