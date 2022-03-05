@@ -918,7 +918,7 @@
 .bi.active {
   transform: rotate(45);
 }
-.faq-answer{
+.faq-answer {
   padding: 0.5rem 1.5rem;
   border: 1px 0 solid #000;
   font-size: 1.2rem;
@@ -1073,7 +1073,7 @@
   .main-input {
     font-size: 1.5em;
     font-weight: 300;
-    color: #ababab71;
+    color: #22222271;
     height: 100%;
   }
 }
