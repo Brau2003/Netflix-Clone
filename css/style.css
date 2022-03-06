@@ -751,7 +751,7 @@
   text-align: right;
 }
 
-.preferences_grafico-1 {
+.preferences__grafico-1 {
   margin-top: 50px;
 }
 
@@ -1115,6 +1115,14 @@
 }
 
 @media (max-width: 500px) {
+  .header-nav-container {
+    margin: 15px;
+  }
+
+  .header__select-ancor-container {
+    gap: 0.7rem;
+  }
+
   /*ENJOY ON YOUR TV*/
   .section-features .section-container .right-column {
     height: 270px;
@@ -1129,6 +1137,26 @@
     color: white;
     font-size: 2rem;
     font-weight: 700;
+  }
+
+  .preferences__grafico-1 {
+    margin: 15px;
+  }
+
+  .preferences__source {
+    margin: 15px;
+  }
+
+  .preferences__interpretation {
+    margin: 25px;
+  }
+
+  .email__tittle {
+    margin: 15px;
+  }
+
+  .event__ontoggle {
+    margin: 15px;
   }
 }
 
@@ -1189,7 +1217,7 @@
   .main-input {
     font-size: 1.5em;
     font-weight: 300;
-    color: #13131371;
+    color: #0e0e0e71;
     height: 100%;
   }
 }
