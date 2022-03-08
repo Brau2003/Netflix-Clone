@@ -886,7 +886,9 @@
   color: #ffff;
 }
 .faq_section {
-  padding: 3.1rem 0;
+  padding: 4.37rem 2.81rem;
+  font-size: 1.625rem;
+  font-weight: 400;
 }
 .faq_div {
   line-height: 1.5;
@@ -898,6 +900,10 @@
 .faq-title {
   margin-bottom: 5rem;
 }
+#accordionExample{
+  width: 75%;
+  margin: 2em auto;}
+
 #accordionItem{
     background: none;
     margin: 0 0 0.5rem 0;
