@@ -898,7 +898,10 @@
   text-align: center;
 }
 .faq-title {
-  margin-bottom: 5rem;
+  margin-bottom: 4rem;
+  font-size: 3.125rem;
+  line-height: 1.1;
+  font-weight:bold;
 }
 #accordionExample{
   width: 75%;
@@ -917,7 +920,7 @@
   border: 0;
   font-weight: 400;
   padding: 1.2rem 3.3rem 1.2rem 1.8rem;
-  font-size: 1.625rem;
+  font-size: 1.25rem;
   font-weight: 400;
 }
 
@@ -947,7 +950,7 @@
 #accordion-body {
   /*padding: 0.5rem 1.5rem;*/
   /*border: 1px 0 solid #000;*/
-  font-size: 1.625rem;
+  font-size: 1.25rem;
   font-weight: 400;
   margin-bottom: 0.5rem;
   background-color: #303030;
