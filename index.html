@@ -477,12 +477,6 @@
         Nuestras métricas nos indican las preferencias más recientes por género. Siempre actualizamos nuestra cartelera
         con películas y series diversas para todas las edades y gustos.
       </p>
-      <button class="preferences__button preferences__button-style" id="preferencesBtn">
-        <span>Ver más</span>
-      </button>
-      <button id="metricasNextYearButton" class="preferences__metricas-next-year">Métricas 2022</button>
-
-      <p id="demo"></p>
     </section>
 
     <section class="faq_section" alt="seccion preguntas frecuentes">
@@ -681,96 +675,68 @@
     </section>
 
     <footer class="footer">
-      <p class="footer__tittle">¿Preguntas? Llama al 0-800-52352</p>
-      <br /><br />
+      <p class="footer__tittle">¿Preguntas? Llama al <span class="footer__tittle--number">0-800-52352</span></p>
       <ul class="footer-ul">
-        <li>
+        <li class="footer__list-item">
           <a class="footer-ul-a" href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox"> Preguntas frecuentes </a>
         </li>
-        <li>
+        <li class="footer__list-item">
           <a class="footer-ul-a" href="">Centro de ayuda</a>
         </li>
-        <li>
+        <li class="footer__list-item">
           <a class="footer-ul-a" href="">Cuenta</a>
         </li>
-        <li>
+        <li class="footer__list-item">
           <a class="footer-ul-a" href="">Prensa</a>
         </li>
-        <li>
+        <li class="footer__list-item">
           <a class="footer-ul-a" href="">Relaciones con inversionistas</a>
         </li>
-        <li>
+        <li class="footer__list-item">
           <a class="footer-ul-a" href="">Empleo</a>
         </li>
-        <li>
+        <li class="footer__list-item">
           <a class="footer-ul-a" href="">Canjear tarjetas de regalo </a>
         </li>
-        <li>
+        <li class="footer__list-item">
           <a class="footer-ul-a" href="">Comprar tarjetas de regalo </a>
         </li>
-        <li>
+        <li class="footer__list-item">
           <a class="footer-ul-a" href="">Formas de ver </a>
         </li>
-        <li>
+        <li class="footer__list-item">
           <a class="footer-ul-a" href="">Términos de uso </a>
         </li>
-        <li>
+        <li class="footer__list-item">
           <a class="footer-ul-a" href="">Privacidad </a>
         </li>
-        <li>
+        <li class="footer__list-item">
           <a class="footer-ul-a" href="">Preferencias de cookies </a>
         </li>
-        <li>
+        <li class="footer__list-item">
           <a class="footer-ul-a" href="">Información corporativa </a>
         </li>
-        <li>
+        <li class="footer__list-item">
           <a class="footer-ul-a" href="">Contáctanos </a>
         </li>
-        <li>
+        <li class="footer__list-item">
           <a class="footer-ul-a" href="">Prueba de velocidad </a>
         </li>
-        <li>
+        <li class="footer__list-item">
           <a class="footer-ul-a" href="">Avisos legales</a>
         </li>
       </ul>
-      <select id="languageSelect" onchange="selectFunction()">
-        <option value="Español">Español</option>
-        <option value="English">English</option>
-      </select>
-      <p id="event"></p>
-      <script>
-        function selectFunction() {
-          var x = document.getElementById("languageSelect").value;
-          document.getElementById("event").innerHTML = "Seleccionaste: " + x;
-        }
-      </script>
-      <br />
-      <p>Netflix Perú</p>
-      <br />
-      <details ontoggle="Function()" class="event__ontoggle">
-        <summary>Copyright 2022.</summary>
-        <br />
-        <p>- Por Netflix, Inc. Todos los derechos reservados.</p>
-        <br />
-        <p>Todo el contenido y gráficos del sitio son propiedad de la compañía Netflix. California, Estados Unidos</p>
-      </details>
-      <br /><br />
-      <script>
-        function Function() {
-          alert("Gracias por visitar Netflix Perú");
-        }
-      </script>
+      <div class="footer__bottom">
+        <select class="footer__select" id="languageSelect">
+          <option value="Español">Español</option>
+          <option value="English">English</option>
+        </select>
+        <p>Netflix Perú</p>
+      </div>
     </footer>
 
     <script src="./js/script.js" type="module"></script>
-    <script>
-      const myBTn = document.getElementById("preferencesBtn");
-      myBTn.addEventListener("click", function (e) {
-        if (e.ctrlKey) {
-          console.log("CTRL + click se está imprimiendo");
-        }
-      });
-    </script>
+
     <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@3.6.12/dist/js/splide.min.js"></script>
     <script src="./js/splide-extension-auto-scroll.min.js"></script>
     <script src="./js/splide.js" type="module"></script>

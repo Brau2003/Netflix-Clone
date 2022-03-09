@@ -64,7 +64,8 @@
   align-items: center;
   justify-content: space-between;
   height: 3.812rem;
-  margin: 0 3.5rem;
+  width: 90%;
+  margin: 0 auto;
 }
 
 .header-nav__logo-container {
@@ -86,9 +87,7 @@
   background-color: var(--background-color);
   color: var(--text-color);
   font-weight: 500;
-  font-size: 1em;
-  padding: 0.5rem 1rem;
-  border: solid 0.5px;
+  font-size: 0.8em;
   border-radius: 3px;
 }
 
@@ -121,10 +120,11 @@
 .main-container-container {
   padding: 50px 5%;
   width: 100vw;
-  height: 100vh;
+  height: 80vh;
   display: flex;
   justify-content: center;
   align-items: start;
+  overflow-y: hidden;
 }
 
 .main-img-container {
@@ -261,6 +261,7 @@
   background-color: #767676;
   transform: scale(0.5);
   margin: -0.8rem 0;
+  transition: all 0.5s;
 }
 
 .tab__icon:hover {
@@ -651,8 +652,10 @@
   background-color: black;
 }
 .email__tittle {
-  font-size: 1.3rem;
-  padding-bottom: 8px;
+  width: 600px;
+
+  font-size: 1.5em;
+  margin: 4rem auto 2rem;
 }
 
 .email-address-container input {
@@ -664,7 +667,7 @@
   font-size: 1.3rem;
 }
 .email-address-container button {
-  padding: 22px;
+  padding: 25.5px 30px;
   border: none;
   background-color: #e50914;
   color: white;
@@ -672,6 +675,7 @@
   font-weight: bold;
   font-size: 1.3rem;
   cursor: wait;
+  height: 100%;
 }
 
 .section {
@@ -756,7 +760,7 @@
 }
 
 .preferences__interpretation {
-  font-size: 16px;
+  font-size: 1.2em;
   line-height: 1.5;
 }
 
@@ -878,7 +882,7 @@
 .faq,
 .faq_section {
   line-height: 1.5;
-  margin: 2rem 0;
+  margin: 2rem 0 0;
 }
 
 .faq {
@@ -886,7 +890,7 @@
   color: #ffff;
 }
 .faq_section {
-  padding: 4.37rem 2.81rem;
+  padding: 4.37rem 2.81rem 0;
 }
 .faq_div {
   line-height: 1.5;
@@ -899,15 +903,16 @@
   margin-bottom: 1rem;
   font-size: 2.5rem;
   line-height: 1.1;
-  font-weight:bolder;
+  font-weight: bolder;
 }
-#accordionExample{
+#accordionExample {
   width: 75%;
-  margin: 2rem auto;}
+  margin: 2rem auto;
+}
 
-#accordionItem{
-    background: none;
-    margin: 0 0 0.5rem 0;
+#accordionItem {
+  background: none;
+  margin: 0 0 0.5rem 0;
 }
 
 #button {
@@ -954,18 +959,17 @@
   background-color: #303030;
 }
 
-
 .faq__button-container {
+  margin-top: -1.5rem;
   display: flex;
   justify-content: center;
 }
 
 .faq__button {
-  font-family: "Poppins", sans-serif;
   font-weight: bold;
   text-align: center;
   background-color: var(--primary-red);
-  font-size: 16px;
+  font-size: 1.1em;
   padding: 1em 2em;
   margin-top: 25px;
   margin-bottom: 20px;
@@ -1077,12 +1081,49 @@
   background-color: black;
   border-top: 8px solid #222;
   padding-top: 4%;
+  width: min(90%, 1250px);
+  margin: 0 auto;
+  color: #757575e4;
 }
 
 .footer__tittle {
-  color: white;
-  text-align: center;
-  padding-top: -2rem;
+  text-align: start;
+  margin-bottom: 3rem;
+  font-size: 1.3em;
+  cursor: pointer;
+}
+.footer__tittle--number:hover {
+  text-decoration: underline;
+}
+.footer__list-item {
+  text-align: start;
+  font-size: 1.1em;
+}
+.footer-ul {
+  gap: 1rem 0;
+}
+.footer-ul-a:hover {
+  text-decoration: underline;
+}
+
+.footer__select {
+  padding: 1rem;
+  background-color: var(--background-color);
+  color: #757575e4;
+  font-size: 1.3em;
+  border-radius: 3px;
+}
+
+.footer__select:hover {
+  background: var(--background-color);
+}
+.footer__bottom {
+  padding: 3rem 0;
+  width: fit-content;
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  gap: 2rem;
 }
 
 @media (max-width: 943px) {
@@ -1169,6 +1210,7 @@
 
   .preferences__interpretation {
     margin: 25px;
+    /* font-size: 1.2em; */
   }
 
   .email__tittle {
