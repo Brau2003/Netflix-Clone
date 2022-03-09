@@ -89,6 +89,7 @@
   font-weight: 500;
   font-size: 0.8em;
   border-radius: 3px;
+  padding: 0.5rem 0.5rem;
 }
 
 .header-ancor {
@@ -1097,20 +1098,24 @@
 }
 .footer__list-item {
   text-align: start;
-  font-size: 1.1em;
+  font-size: 0.9em;
 }
 .footer-ul {
   gap: 1rem 0;
 }
+.footer-ul-a {
+  transition: all 1s;
+}
 .footer-ul-a:hover {
   text-decoration: underline;
+  color: #757575e4;
 }
 
 .footer__select {
-  padding: 1rem;
+  padding: 1rem 0.5rem;
   background-color: var(--background-color);
-  color: #757575e4;
-  font-size: 1.3em;
+  color: #cdcdcde4;
+  font-size: 1.1em;
   border-radius: 3px;
 }
 
