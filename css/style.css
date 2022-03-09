@@ -1082,7 +1082,7 @@
   background-color: black;
   border-top: 8px solid #222;
   padding-top: 4%;
-  width: min(90%, 1250px);
+  width: min(90%, 1000px);
   margin: 0 auto;
   color: #757575e4;
 }
@@ -1101,7 +1101,9 @@
   font-size: 0.9em;
 }
 .footer-ul {
-  gap: 1rem 0;
+  display: grid;
+  gap: 1.5rem 1rem;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 .footer-ul-a {
   transition: all 1s;
@@ -1231,6 +1233,7 @@
   .footer-ul {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1rem 0;
   }
 
   .main-container-container {
