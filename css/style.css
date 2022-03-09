@@ -64,7 +64,8 @@
   align-items: center;
   justify-content: space-between;
   height: 3.812rem;
-  margin: 0 3.5rem;
+  width: 90%;
+  margin: 0 auto;
 }
 
 .header-nav__logo-container {
@@ -86,8 +87,7 @@
   background-color: var(--background-color);
   color: var(--text-color);
   font-weight: 500;
-  font-size: 1em;
-  padding: 0.5rem 1rem;
+  font-size: 0.8em;
   border: solid 0.5px;
   border-radius: 3px;
 }
@@ -121,10 +121,11 @@
 .main-container-container {
   padding: 50px 5%;
   width: 100vw;
-  height: 100vh;
+  height: 80vh;
   display: flex;
   justify-content: center;
   align-items: start;
+  overflow-y: hidden;
 }
 
 .main-img-container {
@@ -261,6 +262,7 @@
   background-color: #767676;
   transform: scale(0.5);
   margin: -0.8rem 0;
+  transition: all 0.5s;
 }
 
 .tab__icon:hover {

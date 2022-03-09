@@ -72,12 +72,6 @@ const documentReady = () => {
     item.addEventListener("mouseenter", enterTabItem);
     item.addEventListener("mouseleave", leaveTabItem);
   });
-
-  const displayProximamente = () => {
-    document.getElementById("demo").innerHTML = "Próximamente...";
-  };
-
-  metricasNextYearbtn.addEventListener("click", displayProximamente);
 };
 
 document.addEventListener("DOMContentLoaded", documentReady);

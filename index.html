@@ -467,12 +467,6 @@
         Nuestras métricas nos indican las preferencias más recientes por género. Siempre actualizamos nuestra cartelera
         con películas y series diversas para todas las edades y gustos.
       </p>
-      <button class="preferences__button preferences__button-style" id="preferencesBtn">
-        <span>Ver más</span>
-      </button>
-      <button id="metricasNextYearButton" class="preferences__metricas-next-year">Métricas 2022</button>
-
-      <p id="demo"></p>
     </section>
 
     <section class="email-address-container">
@@ -535,21 +529,15 @@
           <a class="footer-ul-a" href="">Avisos legales</a>
         </li>
       </ul>
-      <select id="languageSelect" onchange="selectFunction()">
+      <select id="languageSelect">
         <option value="Español">Español</option>
         <option value="English">English</option>
       </select>
-      <p id="event"></p>
-      <script>
-        function selectFunction() {
-          var x = document.getElementById("languageSelect").value;
-          document.getElementById("event").innerHTML = "Seleccionaste: " + x;
-        }
-      </script>
+
       <br />
       <p>Netflix Perú</p>
       <br />
-      <details ontoggle="Function()">
+      <details>
         <summary>Copyright 2022.</summary>
         <br />
         <p>- Por Netflix, Inc. Todos los derechos reservados.</p>
@@ -557,22 +545,10 @@
         <p>Todo el contenido y gráficos del sitio son propiedad de la compañía Netflix. California, Estados Unidos</p>
       </details>
       <br /><br />
-      <script>
-        function Function() {
-          alert("Gracias por visitar Netflix Perú");
-        }
-      </script>
     </footer>
 
     <script src="./js/script.js" type="module"></script>
-    <script>
-      const myBTn = document.getElementById("preferencesBtn");
-      myBTn.addEventListener("click", function (e) {
-        if (e.ctrlKey) {
-          console.log("CTRL + click se está imprimiendo");
-        }
-      });
-    </script>
+
     <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@3.6.12/dist/js/splide.min.js"></script>
     <script src="./js/splide-extension-auto-scroll.min.js"></script>
     <script src="./js/splide.js" type="module"></script>
