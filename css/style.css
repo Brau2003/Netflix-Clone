@@ -667,7 +667,7 @@
   font-size: 1.3rem;
 }
 .email-address-container button {
-  padding: 22px;
+  padding: 25.5px 30px;
   border: none;
   background-color: #e50914;
   color: white;
@@ -675,6 +675,7 @@
   font-weight: bold;
   font-size: 1.3rem;
   cursor: wait;
+  height: 100%;
 }
 
 .section {
@@ -754,12 +755,12 @@
   text-align: right;
 }
 
-.preferences_grafico-1 {
+.preferences__grafico-1 {
   margin-top: 50px;
 }
 
 .preferences__interpretation {
-  font-size: 16px;
+  font-size: 1.2em;
   line-height: 1.5;
 }
 
@@ -877,6 +878,203 @@
   background-color: #e30813 !important;
 }
 
+/* FAQ */
+.faq,
+.faq_section {
+  line-height: 1.5;
+  margin: 2rem 0 0;
+}
+
+.faq {
+  position: relative;
+  color: #ffff;
+}
+.faq_section {
+  padding: 4.37rem 2.81rem 0;
+}
+.faq_div {
+  line-height: 1.5;
+  margin: 2rem 0;
+}
+.faq-title-container {
+  text-align: center;
+}
+.faq-title {
+  margin-bottom: 1rem;
+  font-size: 2.5rem;
+  line-height: 1.1;
+  font-weight: bolder;
+}
+#accordionExample {
+  width: 75%;
+  margin: 2rem auto;
+}
+
+#accordionItem {
+  background: none;
+  margin: 0 0 0.5rem 0;
+}
+
+#button {
+  background: #303030;
+  color: #ffff;
+  margin: 0 0 0.063rem;
+  width: 100%;
+  border: 0;
+  font-weight: 400;
+  padding: 1.2rem 3.3rem 1.2rem 1.8rem;
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+
+#headingOne,
+#headingTwo,
+#headingThree,
+#headingFour,
+#headingFive,
+#headingSix {
+  margin: 0 0 0.063rem;
+}
+
+#collapseOne,
+#collapseTwo,
+#collapseThree,
+#collapseFour,
+#collapseFive,
+#collapseSix {
+  padding: 1.8rem;
+  border: 1px 0 solid #000;
+  transition: 0.41s ease-in-out;
+  background-color: #303030;
+  color: white;
+  max-height: 75rem;
+}
+
+#accordion-body {
+  /*padding: 0.5rem 1.5rem;*/
+  /*border: 1px 0 solid #000;*/
+  font-size: 1.25rem;
+  font-weight: 400;
+  margin-bottom: 0.5rem;
+  background-color: #303030;
+}
+
+.faq__button-container {
+  margin-top: -1.5rem;
+  display: flex;
+  justify-content: center;
+}
+
+.faq__button {
+  font-weight: bold;
+  text-align: center;
+  background-color: var(--primary-red);
+  font-size: 1.1em;
+  padding: 1em 2em;
+  margin-top: 25px;
+  margin-bottom: 20px;
+  -webkit-appearance: none;
+  appearance: none;
+  color: var(--text-color);
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  transition: transform ease-in 0.1s, box-shadow ease-in 0.25s;
+  box-shadow: 0 2px 25px var(--button-color);
+}
+
+.faq__button:focus {
+  outline: 0;
+}
+
+.faq__button:before,
+.faq__button:after {
+  position: absolute;
+  content: "";
+  display: block;
+  width: 140%;
+  height: 100%;
+  left: -20%;
+  z-index: -1000;
+  transition: all ease-in-out 0.5s;
+  background-repeat: no-repeat;
+}
+
+.faq__button:before {
+  display: none;
+  top: -75%;
+  background-image: radial-gradient(circle, var(--button-color) 20%, transparent 20%),
+    radial-gradient(circle, transparent 20%, var(--button-color) 20%, transparent 30%),
+    radial-gradient(circle, var(--button-color) 20%, transparent 20%),
+    radial-gradient(circle, var(--button-color) 20%, transparent 20%),
+    radial-gradient(circle, transparent 10%, var(--button-color) 15%, transparent 20%),
+    radial-gradient(circle, var(--button-color) 20%, transparent 20%),
+    radial-gradient(circle, var(--button-color) 20%, transparent 20%),
+    radial-gradient(circle, var(--button-color) 20%, transparent 20%),
+    radial-gradient(circle, var(--button-color) 20%, transparent 20%);
+  background-size: 10% 10%, 20% 20%, 15% 15%, 20% 20%, 18% 18%, 10% 10%, 15% 15%, 10% 10%, 18% 18%;
+}
+
+.faq__button:after {
+  display: none;
+  bottom: -75%;
+  background-image: radial-gradient(circle, var(--button-color) 20%, transparent 20%),
+    radial-gradient(circle, var(--button-color) 20%, transparent 20%),
+    radial-gradient(circle, transparent 10%, var(--button-color) 15%, transparent 20%),
+    radial-gradient(circle, var(--button-color) 20%, transparent 20%),
+    radial-gradient(circle, var(--button-color) 20%, transparent 20%),
+    radial-gradient(circle, var(--button-color) 20%, transparent 20%),
+    radial-gradient(circle, var(--button-color) 20%, transparent 20%);
+  background-size: 15% 15%, 20% 20%, 18% 18%, 20% 20%, 15% 15%, 10% 10%, 20% 20%;
+}
+
+.faq__button:active {
+  transform: scale(0.9);
+  background-color: var(--button-color);
+  box-shadow: 0 2px 25px var(--primary-red);
+}
+
+.faq__button.animate:before {
+  display: block;
+  animation: topBubbles ease-in-out 0.75s forwards;
+}
+
+.faq__button.animate:after {
+  display: block;
+  animation: bottomBubbles ease-in-out 0.75s forwards;
+}
+
+@keyframes topBubbles {
+  0% {
+    background-position: 5% 90%, 10% 90%, 10% 90%, 15% 90%, 25% 90%, 25% 90%, 40% 90%, 55% 90%, 70% 90%;
+  }
+
+  50% {
+    background-position: 0% 80%, 0% 20%, 10% 40%, 20% 0%, 30% 30%, 22% 50%, 50% 50%, 65% 20%, 90% 30%;
+  }
+
+  100% {
+    background-position: 0% 70%, 0% 10%, 10% 30%, 20% -10%, 30% 20%, 22% 40%, 50% 40%, 65% 10%, 90% 20%;
+    background-size: 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%;
+  }
+}
+
+@keyframes bottomBubbles {
+  0% {
+    background-position: 10% -10%, 30% 10%, 55% -10%, 70% -10%, 85% -10%, 70% -10%, 70% 0%;
+  }
+
+  50% {
+    background-position: 0% 80%, 20% 80%, 45% 60%, 60% 100%, 75% 70%, 95% 60%, 105% 0%;
+  }
+
+  100% {
+    background-position: 0% 90%, 20% 90%, 45% 70%, 60% 110%, 75% 80%, 95% 70%, 110% 10%;
+    background-size: 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%;
+  }
+}
+
 /* MEDIA QUERIES */
 
 .footer {
@@ -978,6 +1176,14 @@
 }
 
 @media (max-width: 500px) {
+  .header-nav-container {
+    margin: 15px;
+  }
+
+  .header__select-ancor-container {
+    gap: 0.7rem;
+  }
+
   /*ENJOY ON YOUR TV*/
   .section-features .section-container .right-column {
     height: 270px;
@@ -992,6 +1198,27 @@
     color: white;
     font-size: 2rem;
     font-weight: 700;
+  }
+
+  .preferences__grafico-1 {
+    margin: 15px;
+  }
+
+  .preferences__source {
+    margin: 15px;
+  }
+
+  .preferences__interpretation {
+    margin: 25px;
+    /* font-size: 1.2em; */
+  }
+
+  .email__tittle {
+    margin: 15px;
+  }
+
+  .event__ontoggle {
+    margin: 15px;
   }
 }
 
@@ -1052,7 +1279,7 @@
   .main-input {
     font-size: 1.5em;
     font-weight: 300;
-    color: #ababab71;
+    color: #0e0e0e71;
     height: 100%;
   }
 }
