@@ -1079,7 +1079,7 @@
 
 .footer {
   background-color: black;
-  padding-top: 4%;
+  padding-top: 4rem;
   width: min(90%, 1000px);
   margin: 0 auto;
   color: #757575e4;
