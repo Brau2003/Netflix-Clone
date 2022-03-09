@@ -88,7 +88,6 @@
   color: var(--text-color);
   font-weight: 500;
   font-size: 0.8em;
-  border: solid 0.5px;
   border-radius: 3px;
 }
 
@@ -653,8 +652,10 @@
   background-color: black;
 }
 .email__tittle {
-  font-size: 1.3rem;
-  padding-bottom: 8px;
+  width: 600px;
+
+  font-size: 1.5em;
+  margin: 4rem auto 2rem;
 }
 
 .email-address-container input {
@@ -882,12 +883,49 @@
   background-color: black;
   border-top: 8px solid #222;
   padding-top: 4%;
+  width: min(90%, 1250px);
+  margin: 0 auto;
+  color: #757575e4;
 }
 
 .footer__tittle {
-  color: white;
-  text-align: center;
-  padding-top: -2rem;
+  text-align: start;
+  margin-bottom: 3rem;
+  font-size: 1.3em;
+  cursor: pointer;
+}
+.footer__tittle--number:hover {
+  text-decoration: underline;
+}
+.footer__list-item {
+  text-align: start;
+  font-size: 1.1em;
+}
+.footer-ul {
+  gap: 1rem 0;
+}
+.footer-ul-a:hover {
+  text-decoration: underline;
+}
+
+.footer__select {
+  padding: 1rem;
+  background-color: var(--background-color);
+  color: #757575e4;
+  font-size: 1.3em;
+  border-radius: 3px;
+}
+
+.footer__select:hover {
+  background: var(--background-color);
+}
+.footer__bottom {
+  padding: 3rem 0;
+  width: fit-content;
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  gap: 2rem;
 }
 
 @media (max-width: 943px) {
