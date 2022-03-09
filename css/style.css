@@ -648,13 +648,12 @@
   position: relative;
   text-align: center;
   width: 100%;
-  padding-top: -4rem;
-  padding-bottom: 4%;
+  padding-bottom: 4rem;
   background-color: black;
+  border-bottom: 8px solid #222;
 }
 .email__tittle {
-  width: 600px;
-
+  width: min(80%, 600px);
   font-size: 1.5em;
   margin: 4rem auto 2rem;
 }
@@ -1080,7 +1079,6 @@
 
 .footer {
   background-color: black;
-  border-top: 8px solid #222;
   padding-top: 4%;
   width: min(90%, 1000px);
   margin: 0 auto;
