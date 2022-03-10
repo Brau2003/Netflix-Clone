@@ -408,6 +408,10 @@
   margin-top: -1.5rem;
 }
 
+.table__title {
+  color: var(--text-color);
+}
+
 .table thead th {
   text-transform: uppercase;
   padding: 0.8rem;
@@ -1139,6 +1143,10 @@
     color: white;
     font-size: 2rem;
     font-weight: 700;
+  }
+
+  .table {
+    margin: 0;
   }
 
   .preferences__title {
