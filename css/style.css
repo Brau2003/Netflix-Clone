@@ -819,23 +819,28 @@
   position: relative;
   color: var(--text-color);
 }
+
 .faq_section {
   padding: 0.7rem 1rem 0;
   justify-content: center;
 }
+
 .faq_div {
   line-height: 1.5;
   margin: 1.5rem 0;
 }
+
 .faq-title-container {
   text-align: center;
 }
+
 .faq-title {
   margin-bottom: 1rem;
   font-size: 2.5rem;
   line-height: 1.1;
   font-weight: bolder;
 }
+
 #accordionExample {
   width: 75%;
   margin: 2rem auto;
@@ -1154,10 +1159,6 @@
   }
 
   .preferences__interpretation-text {
-    margin: 15px;
-  }
-
-  .event__ontoggle {
     margin: 15px;
   }
 }
