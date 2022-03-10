@@ -74,6 +74,23 @@ const documentReady = () => {
   });
 };
 
+// target event object - changing text color to red
+
+function changeColorToRed(event) {
+  event.target.className = "preferences__interpretation-color";
+}
+let toBeChanged = document.querySelector("PreferencesInterpretation");
+PreferencesInterpretation.addEventListener("click", changeColorToRed, false);
+
+// onclick event
+
+document.getElementById("preferencesButton").onclick = function () {
+  alertClick();
+};
+function alertClick() {
+  alert("Gracias por tu interés. Proximamente actualizaremos");
+}
+
 // Animate Button for FAQ
 
 var animateButton = function (e) {
