@@ -812,7 +812,7 @@
 .faq,
 .faq_section {
   line-height: 1.5;
-  margin: 2rem 0 0;
+  margin: 1.8rem 0 0;
 }
 
 .faq {
@@ -820,11 +820,12 @@
   color: var(--text-color);
 }
 .faq_section {
-  padding: 4.37rem 2.81rem 0;
+  padding: 0.7rem 1rem 0;
+  justify-content: center;
 }
 .faq_div {
   line-height: 1.5;
-  margin: 2rem 0;
+  margin: 1.5rem 0;
 }
 .faq-title-container {
   text-align: center;
@@ -1135,6 +1136,10 @@
     font-weight: 700;
   }
 
+  .preferences__title {
+    margin: 15px;
+  }
+
   .preferences__grafico-1 {
     margin: 15px;
   }
@@ -1148,7 +1153,7 @@
     /* font-size: 1.2em; */
   }
 
-  .email__tittle {
+  .preferences__interpretation-text {
     margin: 15px;
   }
 
