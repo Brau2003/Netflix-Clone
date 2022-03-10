@@ -247,12 +247,12 @@
 }
 
 .tabs__tab-item:hover {
-  color: white;
+  color: var(--text-color);
 }
 
 .tabs__tab-item--active {
   border-bottom: solid var(--primary-red);
-  color: #fff;
+  color: var(--text-color);
   transition: all 0.1s;
 }
 
@@ -802,10 +802,10 @@
 }
 .swal2-popup {
   background: var(--background-color) !important;
-  color: #fff !important;
+  color: var(--text-color) !important;
 }
 .swal2-confirm.swal2-styled {
-  background-color: #e30813 !important;
+  background-color: var(--primary-red) !important;
 }
 
 /* FAQ */
@@ -817,7 +817,7 @@
 
 .faq {
   position: relative;
-  color: #ffff;
+  color: var(--text-color);
 }
 .faq_section {
   padding: 4.37rem 2.81rem 0;
@@ -846,8 +846,8 @@
 }
 
 #button {
-  background: #303030;
-  color: #ffff;
+  background: var(--faq-section-bg);
+  color: var(--text-color);
   margin: 0 0 0.063rem;
   width: 100%;
   border: 0;
@@ -873,10 +873,10 @@
 #collapseFive,
 #collapseSix {
   padding: 1.8rem;
-  border: 1px 0 solid #000;
+  border: 1px 0 solid var(--backgroud-color);
   transition: 0.41s ease-in-out;
-  background-color: #303030;
-  color: white;
+  background-color: var(--faq-section-bg);
+  color: var(--text-color);
   max-height: 75rem;
 }
 
@@ -886,7 +886,7 @@
   font-size: 1.25rem;
   font-weight: 400;
   margin-bottom: 0.5rem;
-  background-color: #303030;
+  background-color: var(--faq-section-bg);
 }
 
 .faq__button-container {
@@ -1008,11 +1008,11 @@
 /* MEDIA QUERIES */
 
 .footer {
-  background-color: black;
+  background-color: var(--background-color);
   padding-top: 4rem;
   width: min(90%, 1000px);
   margin: 0 auto;
-  color: #757575e4;
+  color: var(--footer-link-color);
 }
 
 .footer__tittle {
@@ -1038,7 +1038,7 @@
 }
 .footer-ul-a:hover {
   text-decoration: underline;
-  color: #757575e4;
+  color: var(--footer-link-color);
 }
 
 .footer__select {
