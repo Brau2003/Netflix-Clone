@@ -15,38 +15,25 @@ Te invito a que lo puedas descargar en tu máquina local, testear y revisar. Pue
 ## Vistas del proyecto
 
 ### Vista pantalla completa en laptop
-
+    
 [![pantalla-completa0.png](https://i.postimg.cc/pXT8RhFL/pantalla-completa0.png)](https://postimg.cc/kD0Dy5s0)
-
+    
 [![pantallacompleta1.png](https://i.postimg.cc/ZK1HCxZq/pantallacompleta1.png)](https://postimg.cc/nCGBW7X8)
-
+    
 [![pantalla-completa2.png](https://i.postimg.cc/sxGnN6yt/pantalla-completa2.png)](https://postimg.cc/8fDBFb7H)
-
+   
 [![pantalla-completa3.png](https://i.postimg.cc/2S70MBR8/pantalla-completa3.png)](https://postimg.cc/v4D76TZp)
-
+   
 [![pantalla-completa4.png](https://i.postimg.cc/8zZhLdgW/pantalla-completa4.png)](https://postimg.cc/DSbJTXZy)
-
+   
 [![pantalla-completa5.png](https://i.postimg.cc/VvFFT3pZ/pantalla-completa5.png)](https://postimg.cc/YLhgLypQ)
-
-=======
-
-### Vista pantalla completa en laptop
-
-[![pantalla-completa0.png](https://i.postimg.cc/pXT8RhFL/pantalla-completa0.png)](https://postimg.cc/kD0Dy5s0)
-
-[![pantallacompleta1.png](https://i.postimg.cc/ZK1HCxZq/pantallacompleta1.png)](https://postimg.cc/nCGBW7X8)
-
-[![pantalla-completa2.png](https://i.postimg.cc/sxGnN6yt/pantalla-completa2.png)](https://postimg.cc/8fDBFb7H)
-
-[![pantalla-completa3.png](https://i.postimg.cc/2S70MBR8/pantalla-completa3.png)](https://postimg.cc/v4D76TZp)
-
-[![pantalla-completa4.png](https://i.postimg.cc/8zZhLdgW/pantalla-completa4.png)](https://postimg.cc/DSbJTXZy)
-
-[![pantalla-completa5.png](https://i.postimg.cc/VvFFT3pZ/pantalla-completa5.png)](https://postimg.cc/YLhgLypQ)
-
-> > > > > > > develop
-
+    
 ### Vista responsive en mobile
+
+[![mobile1.png](https://i.postimg.cc/MGtsNs5S/mobile1.png)](https://postimg.cc/B8Lc1BRY)
+   
+[![mobile2.png](https://i.postimg.cc/VNyr1179/mobile2.png)](https://postimg.cc/xXRT3rVq)
+
 
 ### Módulo
 
