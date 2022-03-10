@@ -10,7 +10,7 @@ Netflix Perú, disfruta donde quieras...
 ## Introducción
 
 El presente proyecto contiene los archivos .hmtl .css y .js , que fueron escritos por medio del editor Visual Studio Code.
-Te invito a que lo puedas descargar en tu máquina local, testear y revisar. Puedes guiarte de estas notas para revisar la página.
+Te invitamos a que lo puedas descargar en tu máquina local, testear y revisar. Puedes guiarte de estas notas para revisar la página.
 
 ## Vistas del proyecto
 
