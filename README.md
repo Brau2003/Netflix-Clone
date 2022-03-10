@@ -14,8 +14,6 @@ Te invito a que lo puedas descargar en tu máquina local, testear y revisar. Pue
 
 ## Vistas del proyecto
 
-<<<<<<< HEAD
-
 ### Vista pantalla completa en laptop
 
 [![pantalla-completa0.png](https://i.postimg.cc/pXT8RhFL/pantalla-completa0.png)](https://postimg.cc/kD0Dy5s0)
