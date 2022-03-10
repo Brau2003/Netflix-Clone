@@ -29,12 +29,15 @@ Te invito a que lo puedas descargar en tu máquina local, testear y revisar. Pue
 [![pantalla-completa5.png](https://i.postimg.cc/VvFFT3pZ/pantalla-completa5.png)](https://postimg.cc/YLhgLypQ)
     
 ### Vista responsive en mobile
-
-[![mobile1.png](https://i.postimg.cc/MGtsNs5S/mobile1.png)](https://postimg.cc/B8Lc1BRY)
    
+[![mobile1.png](https://i.postimg.cc/MGtsNs5S/mobile1.png)](https://postimg.cc/B8Lc1BRY)
+    
 [![mobile2.png](https://i.postimg.cc/VNyr1179/mobile2.png)](https://postimg.cc/xXRT3rVq)
-
-
+   
+[![mobile3.png](https://i.postimg.cc/DzC5SZ8G/mobile3.png)](https://postimg.cc/gwZ35Gyc)
+   
+[![mobile4.png](https://i.postimg.cc/prv9xQRJ/mobile4.png)](https://postimg.cc/TLk2JDyK)
+   
 ### Módulo
 
 Este proyecto corresponde a la quinta semana del módulo de Frontend.
