@@ -761,109 +761,39 @@
 
 .preferences__interpretation {
   font-size: 1.2em;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+.preferences__interpretation-color {
+  color: var(--primary-red);
+  font-weight: bold;
+  font-size: 1.2em;
+  line-height: 1.5;
+}
+
+.preferences__interpretation-text {
+  font-size: 1em;
   line-height: 1.5;
 }
 
 .preferences__button {
-  margin: 20px;
-  width: 130px;
-  height: 40px;
-  color: var(--text-color);
-  border-radius: 5px;
-  padding: 18px 36px;
-  font-family: "Lato", sans-serif;
+  text-decoration: none;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-weight: 300;
   font-size: 18px;
   font-weight: bold;
-  background: transparent;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  position: relative;
-  display: inline-block;
-  box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5), 7px 7px 20px 0px rgba(0, 0, 0, 0.1),
-    4px 4px 5px 0px rgba(0, 0, 0, 0.1);
-  outline: none;
+  color: var(--text-color);
+  background-color: var(--button-color);
+  border-radius: 7px;
+  border: 3px double var(--primary-red);
 }
 
-.preferences__button-style {
-  background: var(--button-color);
-  background: linear-gradient(0deg, var(--button-color) 0%, var(--primary-red) 100%);
-  width: 130px;
-  height: 40px;
-  line-height: 42px;
-  padding: 0;
-  border: none;
-}
-
-.preferences__button-style span {
-  position: relative;
-  display: block;
-  width: 100%;
-  height: 100%;
-}
-
-.preferences__button-style:before,
-.preferences__button-style:after {
-  position: absolute;
-  content: "";
-  right: 0;
-  top: 0;
-  background: var(--button-color);
-  transition: all 0.3s ease;
-}
-
-.preferences__button-style:before {
-  height: 0%;
-  width: 2px;
-}
-
-.preferences__button-style:after {
-  width: 0%;
-  height: 2px;
-}
-
-.preferences__button-style:hover {
-  background: transparent;
-  box-shadow: none;
-}
-
-.preferences__button-style:hover:before {
-  height: 100%;
-}
-
-.preferences__button-style:hover:after {
-  width: 100%;
-}
-
-.preferences__button-style span:hover {
-  color: var(--button-color);
-}
-
-.preferences__button-style span:before,
-.preferences__button-style span:after {
-  position: absolute;
-  content: "";
-  left: 0;
-  bottom: 0;
-  background: var(--button-color);
-  transition: all 0.3s ease;
-}
-
-.preferences__button-style span:before {
-  width: 2px;
-  height: 0%;
-}
-
-.preferences__button-style span:after {
-  width: 0%;
-  height: 2px;
-}
-
-.preferences__button-style span:hover:before {
-  height: 100%;
-}
-
-.preferences__button-style span:hover:after {
-  width: 100%;
+.preferences__button:hover {
+  opacity: 0.8;
+  text-decoration: none;
 }
 
 /* Sweet Alert Styles */
