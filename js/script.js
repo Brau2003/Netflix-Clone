@@ -110,11 +110,22 @@ for (var i = 0; i < classname.length; i++) {
   classname[i].addEventListener("click", animateButton, false);
 }
 
-// Ejemplo de Default parameters con ECMAScript6 - usuarios de Netflix
+// Ejemplo de Default Parameter con ECMAScript6 - usuarios de Netflix
+
 function identity(name = "Juan", age = 25) {
   console.log(name, " ", age);
 }
 identity(); //Juan 25
 identity("Perez"); //Perez 25
+
+// Ejemplo de Rest Parameter - usuarios de Netflix y membresía
+
+function misUsuarios(a, b, ...membresiaNetflix) {
+  console.log("Fabiana", a);
+  console.log("Benavente", b);
+  console.log("membresiaNetflix", membresiaNetflix);
+}
+
+misUsuarios("mensual", "anual", "mensual", "mensual", "anual", "anual");
 
 document.addEventListener("DOMContentLoaded", documentReady);
