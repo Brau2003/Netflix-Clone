@@ -1,4 +1,5 @@
 "use-strict";
+
 const documentReady = () => {
   // Start header
   const headerScroll = () => {
