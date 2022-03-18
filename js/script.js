@@ -110,7 +110,7 @@ for (var i = 0; i < classname.length; i++) {
   classname[i].addEventListener("click", animateButton, false);
 }
 
-// Ejemplo de Default Parameter con ECMAScript6 - usuarios de Netflix
+// Default Parameter con ECMAScript6 - usuarios de Netflix
 
 function identity(name = "Juan", age = 25) {
   console.log(name, " ", age);
@@ -118,7 +118,7 @@ function identity(name = "Juan", age = 25) {
 identity(); //Juan 25
 identity("Perez"); //Perez 25
 
-// Ejemplo de Rest Parameter - usuarios de Netflix y membresía
+// Rest Parameter - usuarios de Netflix y membresía
 
 function misUsuarios(a, b, ...membresiaNetflix) {
   console.log("Fabiana", a);
@@ -127,5 +127,24 @@ function misUsuarios(a, b, ...membresiaNetflix) {
 }
 
 misUsuarios("mensual", "anual", "mensual", "mensual", "anual", "anual");
+
+// Destructuración de objetos - un usuario de Netflix
+
+let usuario = { nombre: "Susan", pais: "Peru", profesion: "Contadora" };
+
+let nombre = usuario.nombre;
+let pais = usuario.pais;
+let profesion = usuario.profesion;
+
+console.log(nombre);
+console.log(pais);
+console.log(profesion);
+
+// Destructuración de un array - generos de películas y series de Netflix
+
+var generos = ["Drama", "Acción", "Aventura", "Comedia", "Documental", "Infantil", "Animados"];
+var [genero1, genero2, genero3] = generos;
+console.log(genero2);
+console.log(genero3);
 
 document.addEventListener("DOMContentLoaded", documentReady);
