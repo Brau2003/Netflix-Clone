@@ -74,7 +74,7 @@ const documentReady = () => {
   });
 };
 
-// target event object - changing text color to red
+// Target event object - changing text color to red
 
 function changeColorToRed(event) {
   event.target.className = "preferences__interpretation-color";
@@ -109,5 +109,12 @@ var classname = document.getElementsByClassName("faq__button");
 for (var i = 0; i < classname.length; i++) {
   classname[i].addEventListener("click", animateButton, false);
 }
+
+// Ejemplo de Default parameters con ECMAScript6 - usuarios de Netflix
+function identity(name = "Juan", age = 25) {
+  console.log(name, " ", age);
+}
+identity(); //Juan 25
+identity("Perez"); //Perez 25
 
 document.addEventListener("DOMContentLoaded", documentReady);
